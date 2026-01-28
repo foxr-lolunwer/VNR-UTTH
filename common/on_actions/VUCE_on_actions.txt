@@ -1,0 +1,15 @@
+# on_actions = {
+# 	on_startup = {
+#         effect = {
+# 			set_global_flag = VUCE_niche_intro_tooltip_page_1
+# 		}
+# 	}
+# 	on_weekly = {
+# 		effect = {
+# 			if = {
+# 				limit = { has_global_flag = VUCE_COLDWAR_MODULE_RUN }
+# 				VUCE_FUN_COLDWAR_MODULE_RUN = yes
+# 			}
+# 		}
+# 	}
+# }

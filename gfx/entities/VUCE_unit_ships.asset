@@ -1,0 +1,53 @@
+# 航母与两栖类
+entity = {
+    name = "VUCE_coldwar_carrier_entity"
+    clone = "ship_hull_super_carrier_entity"
+}
+
+entity = {
+    name = "VUCE_coldwar_light_carrier_entity"
+    clone = "carrier_entity"
+}
+
+# entity = {
+#     name = "VUCE_lha_entity"
+#     clone = "carrier_entity"
+# }
+
+# 战列舰与巡洋舰类
+entity = {
+    name = "VUCE_guided_missile_battleship_entity"
+    clone = "ship_hull_modern_super_battleship_entity"
+}
+
+entity = {
+    name = "VUCE_guided_missile_cruiser_entity"
+    clone = "heavy_cruiser_entity"
+}
+
+# 驱逐舰与护卫舰类
+entity = {
+    name = "VUCE_guided_missile_destroyer_entity"
+    clone = "destroyer_entity"
+}
+
+entity = {
+    name = "VUCE_destroyer_entity"
+    clone = "destroyer_entity"
+}
+
+entity = {
+    name = "VUCE_guided_missile_frigate_entity"
+    clone = "destroyer_entity"
+}
+
+entity = {
+    name = "VUCE_frigate_entity"
+    clone = "destroyer_entity"
+}
+
+# 潜艇类
+entity = {
+    name = "VUCE_missile_submarine_entity"
+    clone = "submarine_entity"
+}

@@ -1,0 +1,22 @@
+scripted_gui = {
+	VUCE_niche_intro_container = {
+		context_type = player_context
+        window_name = "VUCE_niche_intro_container"
+		parent_window_name = countryequipmentdesignerview
+
+		ai_enabled = { always = no }
+		visible = { always = yes }
+		effects = {
+			show_tooltip_click = {
+				if = { limit = { has_global_flag = VUCE_niche_intro_tooltip_page_1 }
+					clr_global_flag = VUCE_niche_intro_tooltip_page_1
+					set_global_flag = VUCE_niche_intro_tooltip_page_2
+				}
+				else = {
+					clr_global_flag = VUCE_niche_intro_tooltip_page_2
+					set_global_flag = VUCE_niche_intro_tooltip_page_1
+				}
+			}
+		}
+	}
+}

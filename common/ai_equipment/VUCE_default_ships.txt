@@ -1,0 +1,67 @@
+# VUCE_default_ship = {
+# 	category = naval
+# 	roles = { VUCE_default_ship }
+# 	priority = { base = 80 }
+
+# 	VUCE_DD_1950 = {
+# 		name = VUCE_DD_1950
+# 		role_icon_index = 83
+# 		priority = {
+# 			base = 0
+# 			modifier = { add = 200 has_tech = ship_hull_light_5 }
+# 			modifier = { factor = 0 expert_ai_style = yes }
+# 		}
+# 		history = yes
+# 		target_variant = {
+# 			match_value = 9000.0
+# 			type = ship_hull_light_5
+# 			modules = {
+# 				fixed_ship_engine_slot = { upgrade = current any_of = { light_ship_engine_5 light_ship_engine_4 light_ship_engine_3 light_ship_engine_2 light_ship_engine_1 } }
+# 				fixed_ship_battery_slot = dp_light_battery
+# 				fixed_ship_torpedo_slot = ship_torpedo
+# 				fixed_ship_fire_control_system_slot = ship_fire_control_system
+# 				fixed_ship_radar_slot = ship_sonar
+# 				fixed_ship_anti_air_slot = { upgrade > current any_of = { ship_missile_aa } }
+# 				fixed_ship_role_slot = ship_hull_light_role_ddg
+# 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }
+# 				front_1_custom_slot = ship_missile_aa
+# 				mid_1_custom_slot = ship_torpedo
+# 				mid_2_custom_slot = { upgrade = current any_of = { ship_missile_2 ship_missile_1 } }
+# 				rear_1_custom_slot = ship_depth_charge
+# 				rear_2_custom_slot = dp_light_battery
+# 			}
+# 		}
+# 	}
+
+# 	VUCE_DDG_1955 = {
+# 		name = VUCE_DDG_1955
+# 		role_icon_index = 100
+# 		priority = {
+# 			base = 1
+# 			modifier = { add = 200 has_tech = ship_hull_light_6 }
+# 		}
+# 		enable = {
+# 			has_tech = VUCE_coldwar_light_battery_year55
+# 			has_tech = ship_light_ASM_battery_1
+# 		}
+# 		history = yes
+# 		target = {
+# 			match_value = 10000.0
+# 			type = ship_hull_light_6
+# 			modules = {
+# 				fixed_ship_battery_slot = { upgrade > current any_of = { VUCE_coldwar_light_battery_year60 VUCE_coldwar_light_battery_year55 } }
+# 				fixed_ship_anti_air_slot = { upgrade > current any_of = { ship_missile_aa ship_anti_air ship_sam_missile_battery } }
+# 				fixed_ship_torpedo_slot = ship_torpedo
+# 				fixed_ship_fire_control_system_slot = { upgrade > current any_of = { ship_fire_control_system } }
+# 				fixed_ship_radar_slot = VUCE_ship_radar
+# 				fixed_ship_role_slot = VUCE_guided_missile_destroyer_role
+# 				fixed_ship_engine_slot = { upgrade = current any_of = { light_ship_engine_6 light_ship_engine_5 light_ship_engine_4 } }
+# 				fixed_ship_extra_secondaries_slot = { any_of = { light_miscellaneous generic_miscellaneous } }
+# 				front_1_custom_slot = ship_light_ASM_battery
+# 				mid_1_custom_slot = { upgrade > current any_of = { ship_missile_aa ship_anti_air ship_sam_missile_battery } }
+# 				mid_2_custom_slot = { upgrade = current any_of = { VUCE_light_battery_dp VUCE_ship_depth_charge } }
+# 				rear_1_custom_slot = { upgrade = current any_of = { ship_light_ASM_battery ship_torpedo VUCE_ship_airplane_launcher } }
+# 			}
+# 		}
+# 	}
+# }

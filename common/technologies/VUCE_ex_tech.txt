@@ -1,0 +1,79 @@
+technologies = {
+	VUCE_COLDWAR_MODULE_BUFF_TECH = {
+		start_year = 1950
+		research_cost = 1
+		submarine = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 2
+		}
+		destroyer = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+		}
+		light_cruiser = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+		}
+		medium_cruiser = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+		}
+		heavy_cruiser = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+		}
+		battle_cruiser = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+		}
+		battleship = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+		}
+		carrier = {
+			anti_air_attack = -0.8
+			sub_attack = -0.8
+			lg_attack = -0.8
+			hg_attack = -0.8
+			torpedo_attack = -0.8
+			surface_detection = -0.8
+			sub_visibility = 1
+			carrier_size = -8
+		}
+	}
+}

@@ -1,0 +1,11 @@
+VUCE_FUN_COLDWAR_MODULE_RUN = {
+	every_country = {
+		if = {
+			limit = { NOT = { has_tech = VUCE_COLDWAR_MODULE_BUFF_TECH } }
+			set_technology = {
+				VUCE_COLDWAR_MODULE_BUFF_TECH = 1
+				new_doctrine = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+equipments = {
+	VUCE_ship_hull_lha = {
+		year = 1970
+		can_be_produced = {
+			NOT = { has_country_flag = cannot_produce_ships }
+		}
+		is_archetype = yes
+		is_buildable = no
+		type = carrier
+		group_by = archetype
+		model = carrier
+		priority = 1000
+		interface_category = interface_category_capital_ships
+
+		module_slots = {
+			fixed_ship_deck_slot = {
+				required = yes
+				allowed_module_categories = {
+					VUCE_ship_deck_space_lha
+				}
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { VUCE_light_battery_dp ship_sam_missile_battery ship_ciws }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { VUCE_ship_radar }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { VUCE_lha_ship_engine }
+			}
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					carrier_helipad
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					carrier_helipad
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					carrier_helipad
+				}
+			}
+		}
+		default_modules = {
+			fixed_ship_battery_slot = VUCE_lha_deck_space
+			fixed_ship_engine_slot = VUCE_lha_ship_engine_1
+		}
+		lg_armor_piercing = 0
+		lg_attack = 0
+		hg_armor_piercing = 0
+		hg_attack = 0
+		torpedo_attack = 0
+		sub_attack = 1
+		anti_air_attack = 0
+		armor_value = 200
+		surface_visibility = 30
+		fuel_consumption = 0
+		resources = {
+			steel = 4
+		}
+		manpower = 800
+		surface_detection = 10
+		sub_detection = 5
+		naval_speed = 20
+		reliability = 0.80
+		naval_range = 2000
+		max_strength = 100
+		build_cost_ic = 3000
+		naval_dominance_factor = 200
+	}
+	VUCE_ship_hull_lha_1 = {
+		year = 1970
+		priority = 1500
+		archetype = VUCE_ship_hull_lha
+		naval_dominance_factor = 200
+		model = carrier
+		module_slots = inherit
+	}
+}

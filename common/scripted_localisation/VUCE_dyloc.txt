@@ -1,0 +1,14 @@
+define_text = {
+	name = VUCE_SHIP_ROLE_ICON_TEXT_DYLOC
+	text = {
+		trigger = { has_global_flag = VUCE_niche_intro_tooltip_page_1 }
+		localization_key = VUCE_niche_intro_tooltip_page_1
+	}
+	text = {
+		trigger = { has_global_flag = VUCE_niche_intro_tooltip_page_2 }
+		localization_key = VUCE_niche_intro_tooltip_page_2
+	}
+	text = {
+		localization_key = VUCE_niche_intro_tooltip_page_1
+	}
+}

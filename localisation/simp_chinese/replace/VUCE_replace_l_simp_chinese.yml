@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+  VUCE_STAT_NAVY_HELP_1: "（二战）"
+  VUCE_STAT_NAVY_HELP_2: "（冷战）"
+  STAT_NAVY_LG_ATTACK: "一类武器攻击： "
+  STAT_NAVY_LG_ATTACK_DESC: "$VUCE_STAT_NAVY_HELP_1$§Y轻型火炮攻击：§!\n轻型火炮造成的伤害。轻型火炮更适合瞄准小型舰船。\n$VUCE_STAT_NAVY_HELP_2$§Y火炮或对岸支援伤害：§!\n这一数值反映了舰船的火炮伤害或是对岸支援能力。"
+  STAT_NAVY_LG_ARMOR_PIERCING: "一类武器攻击能力："
+  STAT_NAVY_LG_ARMOR_PIERCING_DESC: "$VUCE_STAT_NAVY_HELP_1$§Y轻攻击穿甲深度：§!\n轻型火炮的穿甲深度。\n$VUCE_STAT_NAVY_HELP_2$§Y火炮伤害能力：§!\n火炮伤害能力为0时只能对装甲目标造成1%的伤害。"
+  STAT_NAVY_HG_ATTACK: "二类武器攻击： "
+  STAT_NAVY_HG_ATTACK_DESC: "$VUCE_STAT_NAVY_HELP_1$§Y重型火炮攻击：§!\n由重型火炮造成的伤害。重型火炮更适合瞄准大型舰船。\n$VUCE_STAT_NAVY_HELP_2$§Y导弹攻击：§!\n由导弹造成的伤害。导弹可以摧毁所有水面舰艇。"
+  STAT_NAVY_HG_ARMOR_PIERCING: "二类武器攻击能力："
+  STAT_NAVY_HG_ARMOR_PIERCING_DESC: "$VUCE_STAT_NAVY_HELP_1$§Y重攻击穿甲深度：§!\n重型火炮的穿甲深度。\n$VUCE_STAT_NAVY_HELP_2$§Y导弹突防能力：§!\n导弹突破敌方拦截的能力。"
