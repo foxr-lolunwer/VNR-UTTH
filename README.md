@@ -1,4 +1,4 @@
-# VNR+UTTH Project
+# VNR + UTTNH Compatch | 原版海军重置+UTTNH兼容包
 
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3164741523)
 
