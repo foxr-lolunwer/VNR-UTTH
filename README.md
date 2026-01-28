@@ -1,12 +1,16 @@
 # VNR+UTTNH Compatch Expand (VUCE)
 
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3164741523)
+[![GitHub Releases](https://img.shields.io/badge/GitHub-Releases-orange?logo=github)](https://github.com/foxr-lolunwer/VNR-UTTH/releases)
 
-## 版本信息 / Version Info
+## 当前版本信息 / Version Info
 * **MOD Ver:** `Neo 1.8 alpha`
 * **VNR Ver:** `v2.8 - Leyte Gulf` (Jan 1, 2026)
 * **UTTNH Ver:** `Jan 11, 2026`
 
+## 🔗 快速链接 / Quick Links
+* **Steam Workshop:** [Subscribe Here](https://steamcommunity.com/sharedfiles/filedetails/?id=3164741523)
+* **GitHub Releases:** [Download Manual Version](https://github.com/foxr-lolunwer/VNR-UTTH/releases) (适合手动安装或回滚旧版本)
 ---
 
 ## 📢 更新日志 / Change Notes
