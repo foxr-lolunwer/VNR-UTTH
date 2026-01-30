@@ -68,9 +68,9 @@ It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced sys
 
 1.  **放置项目**：将本项目文件夹放置在：  
     `<盘符>:\Users\<用户名>\Documents\Paradox Interactive\Hearts of Iron IV\mod\`
-2.  **新建引导文件**：在上述文件夹中新建一个名为 `VNR_UTTH_Local.mod` 的文本文件。
+2.  **新建引导文件**：在上述文件夹中新建一个名为 `xxx.mod` 的文本文件。
 3.  **同步描述信息**：将本项目中 `descriptor.mod` 的内容全部复制到该文件中。
-4.  **添加绝对路径**：在文件末尾添加一行（注意使用正斜杠）：  
+4.  **添加绝对路径**：在文件末尾添加一行：  
     `path="<盘符>:/Users/<用户名>/Documents/Paradox Interactive/Hearts of Iron IV/mod/VNR-UTTH"`
 
 ---
