@@ -1,0 +1,221 @@
+spriteTypes = {
+# 界面元素
+	spriteType = { name = "GFX_VUCE_button_tooltip" 								textureFile = "gfx/interface/VUCE_naval/ex_others/VUCE_button_tooltip.dds" }
+	spriteType = { name = "GFX_VUCE_outdated_naval_equipment_overlay"				textureFile = "gfx/interface/VUCE_SCW_outdated_naval_equipment_overlay.dds" }
+# 文本提示
+	spriteType = { name = "GFX_VUCE_carrier_desc_icon"								textureFile = "gfx/texticons/VUCE_img_tt/VUCE_carrier_desc_icon.dds"			legacy_lazy_load = no }
+	spriteType = { name = "GFX_VUCE_gm_battleship_desc_icon" 						textureFile = "gfx/texticons/VUCE_img_tt/VUCE_gm_battleship_desc_icon.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_VUCE_gm_cruiser_desc_icon" 							textureFile = "gfx/texticons/VUCE_img_tt/VUCE_gm_cruiser_desc_icon.dds"			legacy_lazy_load = no }
+	spriteType = { name = "GFX_VUCE_gm_destroyer_desc_icon" 						textureFile = "gfx/texticons/VUCE_img_tt/VUCE_gm_destroyer_desc_icon.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_VUCE_frigate_desc_icon" 								textureFile = "gfx/texticons/VUCE_img_tt/VUCE_frigate_desc_icon.dds"			legacy_lazy_load = no }
+	spriteType = { name = "GFX_VUCE_missile_sub_desc_icon" 							textureFile = "gfx/texticons/VUCE_img_tt/VUCE_missile_sub_desc_icon.dds"		legacy_lazy_load = no }
+
+# 分类
+	spriteType = { name = "GFX_SMI_VUCE_ex_cv_role" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ex_dd_role" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ex_bb_role" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ex_cg_role" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ex_ss_role" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_light_battery_all" 							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_torpedo" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_torpedo_sub" 							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_radar" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_sonar" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_fire_control_system" 					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_anti_air" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_depth_charge" 							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_sub_snorkel" 							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_airplane_launcher" 					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_bb_ex_armor" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_cg_ex_armor" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_deck_space" 							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_deck_space_mega" 						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_aew" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+# 部件
+  # 角色
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_carrier_role" 						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_CV.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_carrier_role" 				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_CVL.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_battery_destroyer_role" 					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_DD.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_battery_frigate_role" 						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_FF.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_guided_missile_battleship_role"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_BBG.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_guided_missile_cruiser_role" 				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_CG.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_guided_missile_destroyer_role" 				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_DDG.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_guided_missile_frigate_role" 				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_FFG.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_guided_missile_submarine_role" 				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_role_SSG.dds" }
+  # 火炮
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year55" 				textureFile = "gfx/interface/modules/GM1.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year60" 				textureFile = "gfx/interface/modules/GM2.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year65" 				textureFile = "gfx/interface/modules/GM3.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year70" 				textureFile = "gfx/interface/modules/GM4.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year75" 				textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year80" 				textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year85" 				textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_light_battery_year90" 				textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_bb_battery_1" 						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # 设备
+	spriteType = { name = "GFX_SMI_VUCE_ship_fire_control_system_0" 				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_radar_0" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_sonar_0" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # 装甲
+	spriteType = { name = "GFX_SMI_VUCE_bb_ex_armor" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_cg_ex_armor" 								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # 潜艇指挥塔
+  	spriteType = { name = "GFX_SMI_VUCE_sub_conning_tower_0"						textureFile = "gfx/interface/technologies/ICONS/SH50.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_sub_conning_tower_1"						textureFile = "gfx/interface/technologies/ICONS/SH55.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_sub_conning_tower_2"						textureFile = "gfx/interface/technologies/ICONS/SH60.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_sub_conning_tower_3"						textureFile = "gfx/interface/technologies/ICONS/SH70.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_sub_conning_tower_4"						textureFile = "gfx/interface/technologies/ICONS/SH80.dds" } # UTTNH
+	spriteType = { name = "GFX_SMI_VUCE_sub_conning_tower_5"						textureFile = "gfx/interface/technologies/ICONS/SH90.dds" } # UTTNH
+  # 潜艇鱼雷火控计算机
+	spriteType = { name = "GFX_SMI_VUCE_sub_torpedo_computer_0"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_sub_torpedo_computer_1"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_sub_torpedo_computer_2"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_sub_torpedo_computer_3"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_sub_torpedo_computer_4"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_sub_torpedo_computer_5"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # 航母弹射器/滑跃甲板
+  	spriteType = { name = "GFX_SMI_VUCE_coldwar_ski_jump"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_ski_jump.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_steam_catapult"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_steam_catapult.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_steam_catapult_improved"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_steam_catapult.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_em_catapult_experimental"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_em_catapult_experimental.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_ski_jump"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_steam_catapult"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_steam_catapult_improved"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_em_catapult_experimental"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # 舰载直升机
+  	spriteType = { name = "GFX_SMI_VUCE_ship_helipad_gen_1950"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_4.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_asw_1950"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_4.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_aew_1950"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_4.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_helipad_gen_1960"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_3.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_asw_1960"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_3.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_aew_1960"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_3.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_helipad_gen_1970"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_2.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_asw_1970"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_2.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_aew_1970"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_7.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_helipad_gen_1980"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_5.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_asw_1980"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_5.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_aew_1980"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_6.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_ship_helipad_gen_1990"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_1.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_asw_1990"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_1.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_helipad_aew_1990"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_1.dds" }
+  # 甲板空间
+  	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_base"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_improved"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_advanced"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_modern"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_base"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_improved"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_advanced"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_modern"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_base"					textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_improved"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_advanced"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_modern"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_base"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_improved"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_advanced"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+	# spriteType = { name = "GFX_SMI_VUCE_coldwar_deck_space_mega_modern"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+  # 舰船引擎
+  	spriteType = { name = "GFX_SMI_VUCE_carrier_ship_engine_nuclear_1"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_ship_engine_nuclear_2"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_ship_engine_nuclear_3"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_economical_nuclear_reactor_carrier"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # 航母甲板
+  	spriteType = { name = "GFX_SMI_VUCE_deck_design_reinforced_straight_deck"		textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_deck_design_reinforced_straight_deck.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_coldwar_straight_deck"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_straight_deck.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_deck_design_angled_flight_deck"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_deck_design_angled_flight_deck.dds" }
+  # 大型预警机
+	spriteType = { name = "GFX_SMI_VUCE_carrier_aew_1955"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_aew_1970"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_carrier_aew_1990"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+  # LHA
+	spriteType = { name = "GFX_SMI_VUCE_lha_deck_space"								textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_lha_ship_engine_1"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+	spriteType = { name = "GFX_SMI_VUCE_lha_ship_engine_2"							textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_unknown_icon.dds" }
+# 装备图标
+	spriteType = { name = "GFX_VUCE_ship_hull_lha_1_medium"							textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/equipment/VUCE_ship_hull_lha_1.dds" }
+# 科技图标
+  # 舰载直升机
+  	spriteType = { name = "GFX_VUCE_ship_helipad_1950_medium"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_4.dds" }
+	spriteType = { name = "GFX_VUCE_ship_helipad_1960_medium"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_3.dds" }
+	spriteType = { name = "GFX_VUCE_ship_helipad_1970_medium"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_2.dds" }
+	spriteType = { name = "GFX_VUCE_ship_helipad_1980_medium"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_5.dds" }
+	spriteType = { name = "GFX_VUCE_ship_helipad_1990_medium"						textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_helicopter_1.dds" }
+  # 电磁弹射器
+    spriteType = { name = "GFX_VUCE_coldwar_steam_catapult_improved_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  	spriteType = { name = "GFX_VUCE_coldwar_em_catapult_experimental_medium"		textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  	# spriteType = { name = "GFX_VUCE_coldwar_steam_catapult_improved_medium"		textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_steam_catapult.dds" }
+  	# spriteType = { name = "GFX_VUCE_coldwar_em_catapult_experimental_medium"		textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_em_catapult_experimental.dds" }
+  # 火炮
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year55_medium" 			textureFile = "gfx/interface/modules/GM1.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year60_medium" 			textureFile = "gfx/interface/modules/GM2.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year65_medium" 			textureFile = "gfx/interface/modules/GM3.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year70_medium" 			textureFile = "gfx/interface/modules/GM4.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year75_medium" 			textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year80_medium" 			textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year85_medium" 			textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+	spriteType = { name = "GFX_VUCE_coldwar_light_battery_year90_medium" 			textureFile = "gfx/interface/modules/GM1.dds" } # NULL
+  # 潜艇指挥塔
+  	spriteType = { name = "GFX_VUCE_sub_conning_tower_0_medium"						textureFile = "gfx/interface/technologies/ICONS/SH50.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_sub_conning_tower_1_medium"						textureFile = "gfx/interface/technologies/ICONS/SH55.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_sub_conning_tower_2_medium"						textureFile = "gfx/interface/technologies/ICONS/SH60.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_sub_conning_tower_3_medium"						textureFile = "gfx/interface/technologies/ICONS/SH70.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_sub_conning_tower_4_medium"						textureFile = "gfx/interface/technologies/ICONS/SH80.dds" } # UTTNH
+	spriteType = { name = "GFX_VUCE_sub_conning_tower_5_medium"						textureFile = "gfx/interface/technologies/ICONS/SH90.dds" } # UTTNH
+  # 潜艇鱼雷火控计算机
+	spriteType = { name = "GFX_VUCE_sub_torpedo_computer_0_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_sub_torpedo_computer_1_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_sub_torpedo_computer_2_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_sub_torpedo_computer_3_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_sub_torpedo_computer_4_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_sub_torpedo_computer_5_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  # 甲板空间
+  	spriteType = { name = "GFX_VUCE_coldwar_deck_space_base_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_deck_space_improved_medium"				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_deck_space_advanced_medium"				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_deck_space_modern_medium"				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  	spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_base_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_improved_medium"		textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_advanced_medium"		textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_modern_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+    # spriteType = { name = "GFX_VUCE_coldwar_deck_space_base_medium"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_improved_medium"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_advanced_medium"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_modern_medium"				textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space.dds" }
+  	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_base_medium"			textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_improved_medium"		textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_advanced_medium"		textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_deck_space_mega_modern_medium"		textureFile = "gfx/interface/VUCE_naval/ex_modules/VUCE_coldwar_deck_space_mega.dds" }
+  # 舰船引擎
+  	spriteType = { name = "GFX_VUCE_carrier_ship_engine_nuclear_1_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_carrier_ship_engine_nuclear_2_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_carrier_ship_engine_nuclear_3_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_economical_nuclear_reactor_carrier_medium"		textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  # 航母甲板
+  	spriteType = { name = "GFX_VUCE_deck_design_reinforced_straight_deck_medium"	textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_straight_deck_medium"					textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_deck_design_angled_flight_deck_medium"			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  # 大型预警机
+	spriteType = { name = "GFX_VUCE_carrier_aew_1955_medium"						textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_carrier_aew_1970_medium"						textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_carrier_aew_1990_medium"						textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  # 角色
+	spriteType = { name = "GFX_VUCE_coldwar_light_carrier_role_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_ff_role_medium" 						textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+  # 损管
+  	spriteType = { name = "GFX_VUCE_coldwar_damage_control_1_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_damage_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_damage_control_2_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_damage_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_damage_control_3_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_damage_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_damage_control_4_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_damage_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_damage_control_5_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_damage_control_tech.dds" }
+  # 火控修正
+  	spriteType = { name = "GFX_VUCE_coldwar_fire_control_methods_1_medium" 			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_fire_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_fire_control_methods_2_medium" 			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_fire_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_fire_control_methods_3_medium" 			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_fire_control_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_fire_control_methods_4_medium" 			textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_fire_control_tech.dds" }
+  # 登陆科技
+  	spriteType = { name = "GFX_VUCE_coldwar_landing_craft_1_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	# spriteType = { name = "GFX_VUCE_coldwar_landing_craft_2_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_landing_craft_2_medium"					textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/equipment/VUCE_ship_hull_lha_1.dds" }
+	spriteType = { name = "GFX_VUCE_coldwar_landing_craft_3_medium" 				textureFile = "gfx/interface/VUCE_naval/ex_tech/VUCE_unknown_tech.dds" }
+}

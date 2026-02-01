@@ -1,0 +1,4 @@
+spriteTypes = {
+	SpriteType = { name = "GFX_EMI_ship_torpedo_6" textureFile = "gfx/interface/modules/TORM1.dds" }
+	SpriteType = { name = "GFX_EMI_ship_torpedo_7" textureFile = "gfx/interface/modules/TORM2.dds" }
+}

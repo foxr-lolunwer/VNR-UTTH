@@ -1,0 +1,2176 @@
+technologies = {
+	@1950 = 1
+	@1950_module = 3
+	@1955 = 5
+	@1955_module = 7
+	@1955_module_special = 6
+	@1960 = 9
+	@1960_module = 11
+	@1970 = 13
+	@1970_module = 15
+	@1980 = 17
+	@1980_module = 19
+	@1990 = 21
+	@1990_module = 23
+
+	ship_hull_light_5 = {
+		enable_equipments = {
+			ship_hull_light_5
+		}
+		enable_equipment_modules = {
+			VUCE_battery_destroyer_role
+			VUCE_guided_missile_destroyer_role
+			VUCE_ship_fire_control_system_0
+			VUCE_ship_radar_0
+			VUCE_ship_sonar_0
+		}
+		path = {
+			leads_to_tech = ship_hull_light_6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_ff_role
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1950 }
+		}
+		dependencies = { modern_ship_hull_light = 1 }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	ship_hull_light_6 = {
+		enable_equipments = {
+			ship_hull_light_6
+		}
+		enable_equipment_modules = {
+			VUCE_guided_missile_destroyer_role
+			VUCE_frigate_role
+		}
+		path = {
+			leads_to_tech = ship_hull_light_7
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = depth_charges_6
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1955 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	ship_hull_light_7 = {
+		enable_equipments = {
+			ship_hull_light_7
+		}
+		path = {
+			leads_to_tech = ship_hull_light_8
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = depth_charges_7
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			light_ship_engine_7
+		}
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1960 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	ship_hull_light_8 = {
+		enable_equipments = {
+			ship_hull_light_8
+		}
+		path = {
+			leads_to_tech = ship_hull_light_9
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = depth_charges_8
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			light_ship_engine_8
+		}
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1970 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	ship_hull_light_9 = {
+		enable_equipments = {
+			ship_hull_light_9
+		}
+		path = {
+			leads_to_tech = ship_hull_light_10
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = depth_charges_9
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			light_ship_engine_9
+		}
+		research_cost = 2
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1980 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	ship_hull_light_10 = {
+		enable_equipments = {
+			ship_hull_light_10
+		}
+		enable_equipment_modules = {
+			light_ship_engine_10
+		}
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1990 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+	ship_hull_cruiser_5 = {
+		enable_equipments = {
+			ship_hull_cruiser_5
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_6
+			VUCE_guided_missile_cruiser_role
+			VUCE_cg_ex_armor
+			VUCE_ship_fire_control_system_0
+			VUCE_ship_radar_0
+			VUCE_ship_sonar_0
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = ship_hull_cruiser_6
+			research_cost_coeff = 1
+		}
+		dependencies = { modern_ship_hull_cruiser = 1 }
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1950 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	ship_hull_cruiser_6 = {
+		enable_equipments = {
+			ship_hull_cruiser_6
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = ship_hull_cruiser_7
+			research_cost_coeff = 1
+		}
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1955 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	ship_hull_cruiser_7 = {
+		enable_equipments = {
+			ship_hull_cruiser_7
+		}
+		path = {
+			leads_to_tech = ship_hull_cruiser_8
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_helicopter_launcher
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_7
+		}
+		research_cost = 1.5
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1960 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	ship_hull_cruiser_8 = {
+		enable_equipments = {
+			ship_hull_cruiser_8
+		}
+		path = {
+			leads_to_tech = ship_hull_cruiser_9
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = advanced_helicopter_launcher
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_8
+		}
+		research_cost = 1.5
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1970 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	ship_hull_cruiser_9 = {
+		enable_equipments = {
+			ship_hull_cruiser_9
+		}
+		path = {
+			leads_to_tech = ship_hull_cruiser_10
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_9
+		}
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1980 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	ship_hull_cruiser_10 = {
+		enable_equipments = {
+			ship_hull_cruiser_10
+		}
+		enable_equipment_modules = {
+			cruiser_ship_engine_10
+		}
+		research_cost = 1.5
+		start_year = 1990
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1990 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = ENG
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+
+	ship_hull_heavy_5 = {
+		enable_equipments = {
+			ship_hull_heavy_5
+		}
+		enable_equipment_modules = {
+			VUCE_guided_missile_battleship_role
+			VUCE_bb_ex_armor
+			VUCE_ship_fire_control_system_0
+			VUCE_ship_radar_0
+			VUCE_ship_sonar_0
+		}
+		path = {
+			leads_to_tech = ship_hull_heavy_6
+			research_cost_coeff = 1
+		}
+		dependencies = { advanced_ship_hull_heavy = 1 }
+		enable_equipment_modules = {
+			heavy_ship_engine_5
+		}
+		research_cost = 1.5
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1955 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			modifier = {
+				is_major = no
+				factor = 0
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+		}
+	}
+	ship_hull_heavy_6 = {
+		enable_equipments = {
+			ship_hull_heavy_6
+		}
+		enable_equipment_modules = {
+			heavy_ship_engine_6
+		}
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1980 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = USA
+				tag = SOV
+			}
+			modifier = {
+				is_major = no
+				factor = 0
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			bb_tech
+			bc_tech
+		}
+	}
+
+	ship_hull_carrier_5 = {
+		enable_equipments = {
+			ship_hull_carrier_5
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_5
+			VUCE_coldwar_carrier_role
+			VUCE_deck_design_reinforced_straight_deck
+			VUCE_deck_design_angled_flight_deck
+			VUCE_coldwar_deck_space_base
+			VUCE_coldwar_ski_jump
+			VUCE_coldwar_steam_catapult
+			VUCE_carrier_ship_engine_nuclear_1
+
+			VUCE_ship_fire_control_system_0
+			VUCE_ship_radar_0
+			VUCE_ship_sonar_0
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = ship_hull_carrier_6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_deck_space_mega_base
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_light_carrier_role
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1950 }
+		}
+		dependencies = { super_carriers = 1 }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 8
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_carrier_6 = {
+		enable_equipments = {
+			ship_hull_carrier_6
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_6
+			VUCE_coldwar_deck_space_improved
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_deck_space_mega_improved
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = ship_hull_carrier_7
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_straight_deck
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_carrier_aew_1955
+			research_cost_coeff = 1
+		}
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1955 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 8
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_bc_carrier_1 = {
+		enable_equipments = {
+			ship_hull_bc_carrier_1
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_6
+			VUCE_coldwar_deck_space_advanced
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = ship_hull_bc_carrier_2
+			research_cost_coeff = 1
+		}
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 8 y = @1960 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = SOV
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_bc_carrier_2 = {
+		enable_equipments = {
+			ship_hull_bc_carrier_2
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_7
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_steam_catapult_improved
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		path = {
+			leads_to_tech = ship_hull_bc_carrier_3
+			research_cost_coeff = 1
+		}
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 8 y = @1970 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = SOV
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_bc_carrier_3 = {
+		enable_equipments = {
+			ship_hull_bc_carrier_3
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_8
+			VUCE_coldwar_deck_space_modern
+		}
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 8 y = @1980 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					tag = SOV
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_carrier_7 = {
+		enable_equipments = {
+			ship_hull_carrier_7
+		}
+		path = {
+			leads_to_tech = ship_hull_carrier_8
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_steam_catapult_improved
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_deck_space_mega_advanced
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_carrier_ship_engine_nuclear_2
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_7
+			VUCE_coldwar_deck_space_advanced
+		}
+		research_cost = 1.5
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1960 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 8
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_carrier_8 = {
+		enable_equipments = {
+			ship_hull_carrier_8
+		}
+		path = {
+			leads_to_tech = ship_hull_carrier_9
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_carrier_aew_1970
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_economical_nuclear_reactor_carrier
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_8
+		}
+		research_cost = 1.5
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1970 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 8
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_carrier_9 = {
+		enable_equipments = {
+			ship_hull_carrier_9
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_9
+			VUCE_coldwar_deck_space_modern
+		}
+		path = {
+			leads_to_tech = ship_hull_carrier_10
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_deck_space_mega_modern
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_carrier_ship_engine_nuclear_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1980 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 8
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	ship_hull_carrier_10 = {
+		enable_equipments = {
+			ship_hull_carrier_10
+		}
+		enable_equipment_modules = {
+			carrier_ship_engine_10
+		}
+		path = {
+			leads_to_tech = VUCE_carrier_aew_1990
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_coldwar_em_catapult_experimental
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1990
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1990 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 8
+				OR = {
+					tag = ENG
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	ship_hull_submarine_5 = {
+		enable_equipments = {
+			ship_hull_submarine_5
+		}
+		enable_equipment_modules = {
+			VUCE_sub_conning_tower_0
+			VUCE_sub_torpedo_computer_0
+			VUCE_guided_missile_submarine_role
+
+			VUCE_ship_fire_control_system_0
+			VUCE_ship_radar_0
+			VUCE_ship_sonar_0
+		}
+		path = {
+			leads_to_tech = ship_hull_submarine_6
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_conning_tower_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_torpedo_computer_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.25
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1950 }
+		}
+		dependencies = { modern_ship_hull_submarine = 1 }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	ship_hull_submarine_6 = {
+		enable_equipments = {
+			ship_hull_submarine_6
+		}
+		path = {
+			leads_to_tech = ship_hull_submarine_7
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_conning_tower_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_torpedo_computer_2
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			sub_ship_engine_6
+		}
+		research_cost = 1.25
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1955 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	ship_hull_submarine_7 = {
+		enable_equipments = {
+			ship_hull_submarine_7
+		}
+		path = {
+			leads_to_tech = ship_hull_submarine_8
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_conning_tower_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_torpedo_computer_3
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			sub_ship_engine_7
+		}
+		research_cost = 1.25
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1960 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	ship_hull_submarine_8 = {
+		enable_equipments = {
+			ship_hull_submarine_8
+		}
+		path = {
+			leads_to_tech = ship_hull_submarine_9
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_conning_tower_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_torpedo_computer_4
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			sub_ship_engine_8
+		}
+		research_cost = 1.25
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1970 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	ship_hull_submarine_9 = {
+		enable_equipments = {
+			ship_hull_submarine_9
+		}
+		path = {
+			leads_to_tech = ship_hull_submarine_10
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_conning_tower_5
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = VUCE_sub_torpedo_computer_5
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			sub_ship_engine_9
+		}
+		research_cost = 1.25
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1980 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	ship_hull_submarine_10 = {
+		enable_equipments = {
+			ship_hull_submarine_10
+		}
+		enable_equipment_modules = {
+			sub_ship_engine_10
+		}
+		path = {
+			leads_to_tech = snorkel90
+			research_cost_coeff = 1
+		}
+		research_cost = 1.25
+		start_year = 1990
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1990 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 7
+				OR = {
+					tag = GER
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	depth_charges_6 = {
+		enable_equipment_modules = {
+			ship_depth_charge_6
+		}
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1955_module }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+		}
+	}
+	depth_charges_7 = {
+		enable_equipment_modules = {
+			ship_depth_charge_7
+		}
+		enable_equipment_modules = {
+			ship_sonar_5
+		}
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1960_module }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+		}
+	}
+	depth_charges_8 = {
+		enable_equipment_modules = {
+			ship_depth_charge_8
+		}
+		enable_equipment_modules = {
+			ship_sonar_6
+		}
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
+		}
+		dependencies = {
+			depth_charges_7 = 1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1970_module }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+		}
+	}
+	depth_charges_9 = {
+		enable_equipment_modules = {
+			ship_depth_charge_9
+		}
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
+		}
+		dependencies = {
+			depth_charges_8 = 1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 2.5
+		start_year = 1980
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1980_module }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			dd_tech
+			asw_tech
+		}
+	}
+
+	improved_helicopter_launcher = {
+		enable_equipment_modules = {
+			ship_airplane_launcher_4
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+		research_cost = 0.75
+		start_year = 1960
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1960_module }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 3.5
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	advanced_helicopter_launcher = {
+		enable_equipment_modules = {
+			ship_airplane_launcher_5
+		}
+		on_research_complete = {
+			custom_effect_tooltip = airplane_launcher_advice_tt
+		}
+		dependencies = {
+			improved_airplane_launcher = 1
+		}
+		research_cost = 0.75
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1970_module }
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 3.5
+				OR = {
+					tag = GER
+					tag = JAP
+					tag = USA
+				}
+			}
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cl_tech
+			ca_tech
+		}
+	}
+	## snorkel
+		# snorkel50 = {
+		# 	enable_equipment_modules = {
+		# 		ship_sub_snorkel_3
+		# 	}
+		# 	on_research_complete = {
+		# 		custom_effect_tooltip = snorkel_advice_tt
+		# 	}
+		# 	path = {
+		# 		leads_to_tech = snorkel55
+		# 		research_cost_coeff = 1
+		# 	}
+		# 	xp_research_type = navy
+		# 	xp_boost_cost = 50
+		# 	xp_research_bonus = 1.50
+		# 	research_cost = 2
+		# 	start_year = 1950
+		# 	folder = {
+		# 		name = VUCE_navalfolder
+		# 		position = { x = 10 y = 35 }
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 		modifier = {
+		# 			factor = 7
+		# 			OR = {
+		# 				tag = GER
+		# 				tag = HOL
+		# 			}
+		# 		}
+		# 		#DATE
+		# 		modifier = { factor = 0 date < 1949.1.1 }
+		# 	}
+		# 	special_project_specialization = { specialization_naval }
+		# 	categories = {
+		# 		naval_equipment
+		# 		ss_tech
+		# 	}
+		# }
+		# snorkel55 = {
+		# 	enable_equipment_modules = {
+		# 		ship_sub_snorkel_4
+		# 	}
+		# 	on_research_complete = {
+		# 		custom_effect_tooltip = snorkel_advice_tt
+		# 	}
+		# 	path = {
+		# 		leads_to_tech = snorkel60
+		# 		research_cost_coeff = 1
+		# 	}
+		# 	xp_research_type = navy
+		# 	xp_boost_cost = 50
+		# 	xp_research_bonus = 1.50
+		# 	research_cost = 2
+		# 	start_year = 1955
+		# 	folder = {
+		# 		name = VUCE_navalfolder
+		# 		position = { x = 10 y = @1955 }
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 		modifier = {
+		# 			factor = 7
+		# 			OR = {
+		# 				tag = GER
+		# 				tag = HOL
+		# 			}
+		# 		}
+		# 		#DATE
+		# 		modifier = { factor = 0 date < 1954.1.1 }
+		# 	}
+		# 	special_project_specialization = { specialization_naval }
+		# 	categories = {
+		# 		naval_equipment
+		# 		ss_tech
+		# 	}
+		# }
+		# snorkel60 = {
+		# 	enable_equipment_modules = {
+		# 		ship_sub_snorkel_5
+		# 	}
+		# 	on_research_complete = {
+		# 		custom_effect_tooltip = snorkel_advice_tt
+		# 	}
+		# 	path = {
+		# 		leads_to_tech = snorkel70
+		# 		research_cost_coeff = 1
+		# 	}
+		# 	xp_research_type = navy
+		# 	xp_boost_cost = 50
+		# 	xp_research_bonus = 1.50
+		# 	research_cost = 2
+		# 	start_year = 1960
+		# 	folder = {
+		# 		name = VUCE_navalfolder
+		# 		position = { x = 10 y = 39 }
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 		modifier = {
+		# 			factor = 7
+		# 			OR = {
+		# 				tag = GER
+		# 				tag = HOL
+		# 			}
+		# 		}
+		# 		#DATE
+		# 		modifier = { factor = 0 date < 1958.1.1 }
+		# 	}
+		# 	special_project_specialization = { specialization_naval }
+		# 	categories = {
+		# 		naval_equipment
+		# 		ss_tech
+		# 	}
+		# }
+		# snorkel70 = {
+		# 	enable_equipment_modules = {
+		# 		ship_sub_snorkel_6
+		# 	}
+		# 	on_research_complete = {
+		# 		custom_effect_tooltip = snorkel_advice_tt
+		# 	}
+		# 	path = {
+		# 		leads_to_tech = snorkel80
+		# 		research_cost_coeff = 1
+		# 	}
+		# 	xp_research_type = navy
+		# 	xp_boost_cost = 50
+		# 	xp_research_bonus = 1.50
+		# 	research_cost = 2
+		# 	start_year = 1970
+		# 	folder = {
+		# 		name = VUCE_navalfolder
+		# 		position = { x = 10 y = @1960 }
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 		modifier = {
+		# 			factor = 7
+		# 			OR = {
+		# 				tag = GER
+		# 				tag = HOL
+		# 			}
+		# 		}
+		# 		#DATE
+		# 		modifier = { factor = 0 date < 1968.1.1 }
+		# 	}
+		# 	special_project_specialization = { specialization_naval }
+		# 	categories = {
+		# 		naval_equipment
+		# 		ss_tech
+		# 	}
+		# }
+		# snorkel80 = {
+		# 	enable_equipment_modules = {
+		# 		ship_sub_snorkel_7
+		# 	}
+		# 	on_research_complete = {
+		# 		custom_effect_tooltip = snorkel_advice_tt
+		# 	}
+		# 	path = {
+		# 		leads_to_tech = snorkel90
+		# 		research_cost_coeff = 1
+		# 	}
+		# 	xp_research_type = navy
+		# 	xp_boost_cost = 50
+		# 	xp_research_bonus = 1.50
+		# 	research_cost = 2
+		# 	start_year = 1980
+		# 	folder = {
+		# 		name = VUCE_navalfolder
+		# 		position = { x = 10 y = @1960_module }
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 		modifier = {
+		# 			factor = 7
+		# 			OR = {
+		# 				tag = GER
+		# 				tag = HOL
+		# 			}
+		# 		}
+		# 		#DATE
+		# 		modifier = { factor = 0 date < 1978.1.1 }
+		# 	}
+		# 	special_project_specialization = { specialization_naval }
+		# 	categories = {
+		# 		naval_equipment
+		# 		ss_tech
+		# 	}
+		# }
+		# snorkel90 = {
+		# 	enable_equipment_modules = {
+		# 		ship_sub_snorkel_8
+		# 	}
+		# 	on_research_complete = {
+		# 		custom_effect_tooltip = snorkel_advice_tt
+		# 	}
+		# 	xp_research_type = navy
+		# 	xp_boost_cost = 50
+		# 	xp_research_bonus = 1.50
+		# 	research_cost = 2
+		# 	start_year = 1990
+		# 	folder = {
+		# 		name = VUCE_navalfolder
+		# 		position = { x = 10 y = @1970 }
+		# 	}
+		# 	ai_will_do = {
+		# 		factor = 1
+		# 		modifier = {
+		# 			factor = 7
+		# 			OR = {
+		# 				tag = GER
+		# 				tag = HOL
+		# 			}
+		# 		}
+		# 		#DATE
+		# 		modifier = { factor = 0 date < 1988.1.1 }
+		# 	}
+		# 	special_project_specialization = { specialization_naval }
+		# 	categories = {
+		# 		naval_equipment
+		# 		ss_tech
+		# 	}
+		# }
+
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+###########################################
+########################################### VUCE
+	VUCE_coldwar_ff_role = {
+		enable_equipment_modules = {
+			VUCE_guided_missile_frigate_role
+			VUCE_battery_frigate_role
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1950_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+		}
+	}
+
+
+	VUCE_coldwar_light_carrier_role = {
+		enable_equipment_modules = {
+			VUCE_coldwar_light_carrier_role
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1950_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	VUCE_coldwar_straight_deck = {
+		enable_equipment_modules = {
+			VUCE_coldwar_straight_deck
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1950
+		path = {
+			leads_to_tech = ship_hull_bc_carrier_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 8 y = @1955_module_special }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	VUCE_sub_conning_tower_1 = {
+		enable_equipment_modules = {
+			VUCE_sub_conning_tower_1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1950_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_conning_tower_2 = {
+		enable_equipment_modules = {
+			VUCE_sub_conning_tower_2
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1955
+		dependencies = { VUCE_sub_conning_tower_1 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1955_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_conning_tower_3 = {
+		enable_equipment_modules = {
+			VUCE_sub_conning_tower_3
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1960
+		dependencies = { VUCE_sub_conning_tower_2 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1960_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_conning_tower_4 = {
+		enable_equipment_modules = {
+			VUCE_sub_conning_tower_4
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1970
+		dependencies = { VUCE_sub_conning_tower_3 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1970_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_conning_tower_5 = {
+		enable_equipment_modules = {
+			VUCE_sub_conning_tower_5
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1980
+		dependencies = { VUCE_sub_conning_tower_4 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 1 y = @1980_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	VUCE_sub_torpedo_computer_1 = {
+		enable_equipment_modules = {
+			VUCE_sub_torpedo_computer_1
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1950
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -1 y = @1950_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_torpedo_computer_2 = {
+		enable_equipment_modules = {
+			VUCE_sub_torpedo_computer_2
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1955
+		dependencies = { VUCE_sub_torpedo_computer_1 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -1 y = @1955_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_torpedo_computer_3 = {
+		enable_equipment_modules = {
+			VUCE_sub_torpedo_computer_3
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1960
+		dependencies = { VUCE_sub_torpedo_computer_2 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -1 y = @1960_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_torpedo_computer_4 = {
+		enable_equipment_modules = {
+			VUCE_sub_torpedo_computer_4
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1970
+		dependencies = { VUCE_sub_torpedo_computer_3 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -1 y = @1970_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	VUCE_sub_torpedo_computer_5 = {
+		enable_equipment_modules = {
+			VUCE_sub_torpedo_computer_5
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1980
+		dependencies = { VUCE_sub_torpedo_computer_4 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -1 y = @1980_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	VUCE_ship_helipad_1950 = {
+		enable_equipment_modules = {
+			VUCE_ship_helipad_gen_1950
+			VUCE_carrier_helipad_aew_1950
+			VUCE_carrier_helipad_asw_1950
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1950
+		dependencies = { Helicopter_1 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1950 }
+		}
+		path = {
+			leads_to_tech = VUCE_ship_helipad_1960
+			research_cost_coeff = 1
+		}
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			air_equipment
+		}
+	}
+	VUCE_ship_helipad_1960 = {
+		enable_equipment_modules = {
+			VUCE_ship_helipad_gen_1960
+			VUCE_carrier_helipad_aew_1960
+			VUCE_carrier_helipad_asw_1960
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1960
+		dependencies = { Helicopter_2 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1960 }
+		}
+		path = {
+			leads_to_tech = VUCE_ship_helipad_1970
+			research_cost_coeff = 1
+		}
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			air_equipment
+		}
+	}
+	VUCE_ship_helipad_1970 = {
+		enable_equipment_modules = {
+			VUCE_ship_helipad_gen_1970
+			VUCE_carrier_helipad_aew_1970
+			VUCE_carrier_helipad_asw_1970
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1960
+		dependencies = { Helicopter_3 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1970 }
+		}
+		path = {
+			leads_to_tech = VUCE_ship_helipad_1980
+			research_cost_coeff = 1
+		}
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			air_equipment
+		}
+	}
+	VUCE_ship_helipad_1980 = {
+		enable_equipment_modules = {
+			VUCE_ship_helipad_gen_1980
+			VUCE_carrier_helipad_aew_1980
+			VUCE_carrier_helipad_asw_1980
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1980
+		dependencies = { Helicopter_4 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1980 }
+		}
+		path = {
+			leads_to_tech = VUCE_ship_helipad_1990
+			research_cost_coeff = 1
+		}
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			air_equipment
+		}
+	}
+	VUCE_ship_helipad_1990 = {
+		enable_equipment_modules = {
+			VUCE_ship_helipad_gen_1990
+			VUCE_carrier_helipad_aew_1990
+			VUCE_carrier_helipad_asw_1990
+		}
+		xp_research_type = navy
+		xp_boost_cost = 50
+		xp_research_bonus = 1.50
+		research_cost = 1
+		start_year = 1960
+		dependencies = { Helicopter_5 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 0 y = @1990 }
+		}
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			air_equipment
+		}
+	}
+
+	VUCE_carrier_aew_1955 = {
+		enable_equipment_modules = {
+			VUCE_carrier_aew_1955
+		}
+		research_cost = 1
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1955_module }
+		}
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_carrier_aew_1970 = {
+		enable_equipment_modules = {
+			VUCE_carrier_aew_1970
+		}
+		research_cost = 1
+		start_year = 1970
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1970_module }
+		}
+		dependencies = { VUCE_carrier_aew_1955 = 1 }
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_carrier_aew_1990 = {
+		enable_equipment_modules = {
+			VUCE_carrier_aew_1990
+		}
+		research_cost = 1
+		start_year = 1990
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1990_module }
+		}
+		dependencies = { VUCE_carrier_aew_1970 = 1 }
+		special_project_specialization = { specialization_naval specialization_air }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	VUCE_coldwar_steam_catapult_improved = {
+		enable_equipment_modules = {
+			VUCE_coldwar_steam_catapult_improved
+		}
+		research_cost = 1
+		start_year = 1965
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 4 y = @1970_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_coldwar_em_catapult_experimental = {
+		enable_equipment_modules = {
+			VUCE_coldwar_em_catapult_experimental
+		}
+		research_cost = 1
+		start_year = 1995
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1990_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_coldwar_deck_space_mega_base = {
+		enable_equipment_modules = {
+			VUCE_coldwar_deck_space_mega_base
+		}
+		is_special_project_tech = yes
+		research_cost = 1
+		start_year = 1955
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1950_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_coldwar_deck_space_mega_improved = {
+		enable_equipment_modules = {
+			VUCE_coldwar_deck_space_mega_improved
+		}
+		is_special_project_tech = yes
+		research_cost = 1
+		start_year = 1955
+		dependencies = { VUCE_coldwar_deck_space_mega_base = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1955_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_coldwar_deck_space_mega_advanced = {
+		enable_equipment_modules = {
+			VUCE_coldwar_deck_space_mega_advanced
+		}
+		is_special_project_tech = yes
+		research_cost = 1
+		start_year = 1960
+		dependencies = { VUCE_coldwar_deck_space_mega_improved = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1960_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_coldwar_deck_space_mega_modern = {
+		enable_equipment_modules = {
+			VUCE_coldwar_deck_space_mega_modern
+		}
+		is_special_project_tech = yes
+		research_cost = 1
+		start_year = 1980
+		dependencies = { VUCE_coldwar_deck_space_mega_advanced = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1980_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	VUCE_carrier_ship_engine_nuclear_2 = {
+		enable_equipment_modules = {
+			VUCE_carrier_ship_engine_nuclear_2
+		}
+		research_cost = 1
+		start_year = 1965
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1960_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	VUCE_carrier_ship_engine_nuclear_3 = {
+		enable_equipment_modules = {
+			VUCE_carrier_ship_engine_nuclear_3
+		}
+		research_cost = 1
+		start_year = 1985
+		dependencies = { VUCE_carrier_ship_engine_nuclear_2 = 1 }
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = -2 y = @1980_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	VUCE_economical_nuclear_reactor_carrier = {
+		enable_equipment_modules = {
+			VUCE_economical_nuclear_reactor_carrier
+		}
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = VUCE_navalfolder
+			position = { x = 2 y = @1970_module }
+		}
+		special_project_specialization = { specialization_naval }
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+}

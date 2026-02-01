@@ -1,0 +1,11 @@
+﻿l_english:
+ VUCE_STAT_NAVY_HELP_1: "(WW II)"
+ VUCE_STAT_NAVY_HELP_2: "(CW)"
+ STAT_NAVY_LG_ATTACK: "Type I Attack:"
+ STAT_NAVY_LG_ATTACK_DESC: "$VUCE_STAT_NAVY_HELP_1$§YLight Attack: §!\nDamage done by light guns. Light guns are better at targeting smaller ships.\n$VUCE_STAT_NAVY_HELP_2$§YBattery or Shore Bombardment Damage:§!\nThis value reflects the ship's battery damage or its shore bombardment capability."
+ STAT_NAVY_LG_ARMOR_PIERCING: "Type I Attack Capability:"
+ STAT_NAVY_LG_ARMOR_PIERCING_DESC: "$VUCE_STAT_NAVY_HELP_1$§YLight Piercing: §!\nArmor piercing of the light guns.\n$VUCE_STAT_NAVY_HELP_2$§YBattery Damage Capability:§! \nWhen Battery Damage Capability is 0, it can only deal 1% damage to armored targets."
+ STAT_NAVY_HG_ATTACK: "Type II Attack:"
+ STAT_NAVY_HG_ATTACK_DESC: "$VUCE_STAT_NAVY_HELP_1$§YHeavy Attack: §!\nDamage done by the heavy guns. Heavy guns are better at targeting bigger ships.\n$VUCE_STAT_NAVY_HELP_2$§YMissile Attack:§! \nDamage dealt by missiles. Missiles can destroy all surface vessels."
+ STAT_NAVY_HG_ARMOR_PIERCING: "Type II Attack Capability:"
+ STAT_NAVY_HG_ARMOR_PIERCING_DESC: "$VUCE_STAT_NAVY_HELP_1$§YHeavy Piercing: §!\nArmor piercing of the heavy guns.\n$VUCE_STAT_NAVY_HELP_2$§YMissile Penetration Capability:§! \nThe ability of missiles to bypass enemy interception."

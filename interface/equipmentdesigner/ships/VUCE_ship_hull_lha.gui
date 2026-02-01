@@ -1,0 +1,93 @@
+guiTypes = {
+	containerWindowType = {
+		name = "equipment_designer_VUCE_ship_hull_lha"
+		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
+		position = { x=0 y=0 }
+		size = { width=512 height=260 }
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name = "equipment_image"
+			spriteType = "GFX_SD_tv_civilian"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+		}
+	}
+}
+# guiTypes = {
+# 	################# Equipment Archetype: VUCE_ship_hull_lha #################
+# 	containerWindowType = {
+# 		name = "equipment_designer_VUCE_ship_hull_lha"
+# 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
+# 		position = { x=0 y=0 }
+# 		size = { width=512 height=260 }
+
+# 		background = {
+# 			name = "Background"
+# 			spriteType = "GFX_tiled_window_transparent"
+# 		}
+
+# 		iconType = {
+# 			name = "equipment_image"
+# 			spriteType = "GFX_SD_tv_carrier"
+# 			position = { x=0 y=0 }
+# 		}
+
+# 		containerWindowType = {
+# 			name = "module_slots"
+# 			position = { x=0 y=0 }
+# 			size = { width=100% height=100% }
+# 			################# MODULE SLOT: Deck Space slot 1 #################
+# 			containerWindowType = {
+# 				name = "fixed_ship_deck_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 			################# MODULE SLOT: Anti-Air #################
+# 			containerWindowType = {
+# 				name = "fixed_ship_anti_air_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 			################# MODULE SLOT: Radar/Sonar #################
+# 			containerWindowType = {
+# 				name = "fixed_ship_radar_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 			################# MODULE SLOT: Engine #################
+# 			containerWindowType = {
+# 				name = "fixed_ship_engine_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 			################# MODULE SLOT: Custom, Front #1 #################
+# 			containerWindowType = {
+# 				name = "front_1_custom_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 			################# MODULE SLOT: Custom, Middle #1 #################
+# 			containerWindowType = {
+# 				name = "mid_1_custom_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 			################# MODULE SLOT: Custom, Rear #1 #################
+# 			containerWindowType = {
+# 				name = "rear_1_custom_slot"
+# 				position = { x=0 y=0 }
+# 				size = { width=100% height=100% }
+# 			}
+# 		}
+# 	}
+# }
