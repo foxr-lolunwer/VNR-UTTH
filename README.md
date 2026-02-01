@@ -14,7 +14,7 @@
 ---
 
 ## 📢 更新日志 / Change Notes
-详细的改动记录请查看：  
+详细的改动记录请查看：
 👉 [**Steam Workshop Change Notes**](https://steamcommunity.com/sharedfiles/filedetails/changelog/3164741523)
 
 ### 最新变动 (Neo 1.8 alpha)
@@ -32,7 +32,7 @@
 ## 🛠 功能介绍 / Features
 
 **English:**
-This mod makes [VNR](https://steamcommunity.com/sharedfiles/filedetails/?id=2993766165) and [UTTNH](https://steamcommunity.com/sharedfiles/filedetails/?id=3413890094) compatible, expanding your VNR experience into the 1990s!  
+This mod makes [VNR](https://steamcommunity.com/sharedfiles/filedetails/?id=2993766165) and [UTTNH](https://steamcommunity.com/sharedfiles/filedetails/?id=3413890094) compatible, expanding your VNR experience into the 1990s!
 It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced systems, guiding the technology tree from 1955 up to the 90s.
 
 **中文:**
@@ -40,7 +40,7 @@ It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced sys
 该模组将 VNR 的体验扩展到了 20 世纪 90 年代，沿用 VNR 的海军设计器与 AI 逻辑，并将科技树补全至现代。
 
 > [!WARNING]
-> **Notice:** Some Cold War naval content is currently unfinished. Playing VUCE-produced Cold War content may result in an incomplete experience.  
+> **Notice:** Some Cold War naval content is currently unfinished. Playing VUCE-produced Cold War content may result in an incomplete experience.
 > **注意：** 目前冷战海军部分内容尚未完成，游玩 VUCE 制作的冷战内容可能会影响您的游戏体验。
 
 ---
@@ -66,11 +66,11 @@ It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced sys
 ## 💻 本地部署指南 / Local Deployment
 若要从 GitHub 下载并进行本地部署，请参考以下步骤：
 
-1.  **放置项目**：将本项目文件夹放置在：  
+1.  **放置项目**：将本项目文件夹放置在：
     `<盘符>:\Users\<用户名>\Documents\Paradox Interactive\Hearts of Iron IV\mod\`
-2.  **新建引导文件**：在上述文件夹中新建一个名为 `VNR_UTTH_Local.mod` 的文本文件。
+2.  **新建引导文件**：在上述文件夹中新建一个名为 `xxx.mod` 的文本文件。
 3.  **同步描述信息**：将本项目中 `descriptor.mod` 的内容全部复制到该文件中。
-4.  **添加绝对路径**：在文件末尾添加一行（注意使用正斜杠）：  
+4.  **添加绝对路径**：在文件末尾添加一行：
     `path="<盘符>:/Users/<用户名>/Documents/Paradox Interactive/Hearts of Iron IV/mod/VNR-UTTH"`
 
 ---
