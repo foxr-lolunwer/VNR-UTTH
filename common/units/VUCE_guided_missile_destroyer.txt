@@ -2,7 +2,7 @@ sub_units = {
 	VUCE_guided_missile_destroyer = {
 		sprite = VUCE_guided_missile_destroyer
 		map_icon_category = ship
-		priority = 6
+		priority = 110
 		active = yes
 		type = { capital_ship }
 		need_equipment = { ship_hull_light = 1 }

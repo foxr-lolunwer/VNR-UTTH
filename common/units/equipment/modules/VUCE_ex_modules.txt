@@ -10,6 +10,9 @@ equipment_modules = {
 			armor_value = 500
 			naval_torpedo_damage_reduction_factor = 0.9
 		}
+		multiply_stats = {
+			build_cost_ic = 0.2
+		}
 	}
 	VUCE_coldwar_light_carrier_role = {
 		category = VUCE_ex_cv_role
@@ -19,7 +22,7 @@ equipment_modules = {
     	    max_strength = -0.3
         	surface_visibility = -0.2
 			naval_range = -0.3
-        	build_cost_ic = -0.3
+        	build_cost_ic = -0.1
     	}
 		forbid_module_categories = {
 			VUCE_ship_catapult
@@ -31,14 +34,15 @@ equipment_modules = {
 	VUCE_battery_frigate_role = {
 		category = VUCE_ex_dd_role
 		dismantle_cost_ic = 100000
+		add_equipment_type = screen_ship
 		multiply_stats = {
 	        lg_attack = -0.3
 			lg_armor_piercing = -0.3
     	    max_strength = -0.3
         	surface_visibility = -0.2
-			torpedo_attack = -0.9
+			torpedo_attack = -0.3
 			naval_range = -0.3
-        	build_cost_ic = -0.5
+        	build_cost_ic = -0.1
     	}
 		forbid_module_categories = {
 			ship_light_ASM_battery
@@ -49,8 +53,7 @@ equipment_modules = {
 		category = VUCE_ex_dd_role
 		dismantle_cost_ic = 100000
 		multiply_stats = {
-			torpedo_attack = -0.9
-			build_cost_ic = -0.3
+			build_cost_ic = 0.1
 		}
 		forbid_module_categories = {
 			ship_light_ASM_battery
@@ -71,6 +74,7 @@ equipment_modules = {
 			hg_attack = 0.5
 			hg_armor_piercing = 0.5
 			torpedo_attack = -0.9
+			build_cost_ic = 0.3
 		}
 	}
 	VUCE_guided_missile_cruiser_role = {
@@ -87,6 +91,7 @@ equipment_modules = {
 			hg_attack = 0.3
 			hg_armor_piercing = 0.3
 			torpedo_attack = -0.9
+			build_cost_ic = 0.3
 		}
 	}
 	VUCE_guided_missile_destroyer_role = {
@@ -101,6 +106,7 @@ equipment_modules = {
 			lg_attack = -0.8
 			lg_armor_piercing = -0.8
 			torpedo_attack = -0.9
+			build_cost_ic = 0.3
 		}
 		forbid_module_categories = {
 			ship_light_battery
@@ -131,7 +137,7 @@ equipment_modules = {
         	surface_visibility = -0.2
 			torpedo_attack = -0.9
 			naval_range = -0.3
-        	build_cost_ic = -0.3
+        	build_cost_ic = 0.1
     	}
 		forbid_module_categories = {
 			ship_heavy_ASM_battery
