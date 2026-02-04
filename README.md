@@ -2,6 +2,7 @@
 
 [![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue?logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=3164741523)
 [![GitHub Releases](https://img.shields.io/badge/GitHub-Releases-orange?logo=github)](https://github.com/foxr-lolunwer/VNR-UTTH/releases)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ## 当前版本信息 / Version Info
 * **MOD Ver:** `Neo 1.8 alpha`
