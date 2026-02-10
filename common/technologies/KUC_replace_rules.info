@@ -1,0 +1,6 @@
+替换，除了海军科技
+'\stag = USA' -> '    OR = { tag = USA tag = ACC tag = APG tag = WCA }'
+'original_tag = USA' -> 'OR = { original_tag = USA original_tag = ACC original_tag = APG original_tag = WCA }'
+'has_war_with = USA' -> 'OR = { has_war_with = USA has_war_with = ACC has_war_with = APG has_war_with = WCA }'
+'\stag = JAP' -> '    OR = { tag = JAO tag = GEA }'
+'original_tag = JAP' -> 'OR = { original_tag = JAP original_tag = GEA }'
