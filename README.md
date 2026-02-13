@@ -5,7 +5,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ## 当前版本信息 / Version Info
-* **MOD Ver:** `Neo 1.8 alpha`
+* **MOD Ver:** `Neo 1.8`
 * **VNR Ver:** `v2.8 - Leyte Gulf` (Jan 1, 2026)
 * **UTTNH Ver:** `Jan 11, 2026`
 
@@ -58,6 +58,7 @@ It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced sys
 * **Compatibility / 兼容包**:
     * [VNR + ETT 1960 Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3167054950)
     * [VNR + UTTNH + RT56 Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3457591333)
+    * [KNR + UTTNH Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3663581410)
 * **Localization / 汉化**:
     * Chinese-English translation text proofreading address: [Click here](https://paratranz.cn/projects/16522)
     * 作者参与的 UTTNH 汉化: [Click here](https://steamcommunity.com/sharedfiles/filedetails/?id=3376363586)
