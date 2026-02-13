@@ -15,7 +15,7 @@
 ### 1. 模组需求
 推荐排列顺序：
 1. **Kaiserreich (KR)**
-2. **KNR (Northern Renaissance)**
+2. **KNR (Kaiserreich Naval Rework)**
 3. **UTTNH (Ultimate Tech Tree : New Horizons)**
 4. **VNR + UTTNH 兼容包**
 5. **本模组 (KNR + UTTNH 兼容补丁)**
