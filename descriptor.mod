@@ -1,4 +1,4 @@
-version="Neo 1.8 beta hotfix-1"
+version="Neo 1.8"
 tags={
 	"Fixes"
 }
