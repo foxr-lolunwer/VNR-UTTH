@@ -4562,7 +4562,7 @@ technologies = {
 
 	VUCE_coldwar_damage_control_1 = {
 		start_year = 1955
-		research_cost = 0.2
+		research_cost = 1
 		critical_receive_chance = -0.01
 		naval_critical_effect_factor = -0.02
 		xp_research_type = navy
@@ -4596,7 +4596,7 @@ technologies = {
 	}
 	VUCE_coldwar_damage_control_2 = {
 		start_year = 1960
-		research_cost = 0.2
+		research_cost = 1
 		critical_receive_chance = -0.01
 		naval_critical_effect_factor = -0.02
 		xp_research_type = navy
@@ -4630,7 +4630,7 @@ technologies = {
 	}
 	VUCE_coldwar_damage_control_3 = {
 		start_year = 1970
-		research_cost = 0.2
+		research_cost = 1
 		critical_receive_chance = -0.01
 		naval_critical_effect_factor = -0.02
 		xp_research_type = navy
@@ -4664,7 +4664,7 @@ technologies = {
 	}
 	VUCE_coldwar_damage_control_4 = {
 		start_year = 1980
-		research_cost = 0.2
+		research_cost = 1
 		critical_receive_chance = -0.01
 		naval_critical_effect_factor = -0.02
 		xp_research_type = navy
@@ -4698,7 +4698,7 @@ technologies = {
 	}
 	VUCE_coldwar_damage_control_5 = {
 		start_year = 1990
-		research_cost = 0.2
+		research_cost = 1
 		critical_receive_chance = -0.01
 		naval_critical_effect_factor = -0.02
 		xp_research_type = navy

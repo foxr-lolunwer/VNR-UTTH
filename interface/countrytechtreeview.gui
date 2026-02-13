@@ -312,9 +312,7 @@ guiTypes = {
 				position = { x = 140 y = 400 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
-
 			}
-
 			gridboxtype = {
 				name = "tech_trucks_tree"
 				position = { x = 140 y = 850 }
@@ -344,7 +342,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "forestis_tree"
+				name = "rangers_tech_tree"
 				position = { x = 140 y = 1390 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -1078,7 +1076,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= -100 y= 0 }
 				size = {
-					width = 400 height = 2400
+					width = 1600 height = 1090
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -1097,7 +1095,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "armour_year_left"
-					position = { x= -40 y=185 }
+					position = { x=10 y=50 }
 					size = { width = 80 height = 100%% }
 					orientation = upper_left
 
@@ -1598,26 +1596,26 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "gwtank_chassis_tree"
-				position = { x = 10% y = 172 }
+				position = { x= 750 y = 40 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "UPPER_LEFT"
 			}
 
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = -30% y = 172 }
+				position = { x = 0 y = 40 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "UPPER_LEFT"
 			}
 
 			gridboxtype = {
 				name = "engine_tech_1_tree"
-				position = { x = -22% y = 172 }
+				position = { x = 175 y = 40 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "UPPER_LEFT"
 			}
 
 		}
@@ -4079,7 +4077,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 2300 height = 2200
+					width = 2350 height = 2200
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -4282,7 +4280,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "airtech_year_left"
-				position = { x=1750 y=0 }
+				position = { x=2030 y=0 }
 				size = { width = 200 height = 100% }
 				orientation = upper_left
 
