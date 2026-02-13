@@ -5,3 +5,5 @@ workshop-desc.txt
 *.py
 debug/
 *.psd
+.gitignore
+interface/src/

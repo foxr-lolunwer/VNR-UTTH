@@ -4,7 +4,7 @@ spriteTypes = {
 		texturefile = "gfx/army_icons/naval_equipment_role_icons.dds"
 		noOfFrames = 120
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_naval_equipment_role_icons_selected"
 		texturefile = "gfx/army_icons/naval_equipment_role_icons_selected.dds"
 		noOfFrames = 120

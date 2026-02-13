@@ -63,6 +63,8 @@ technology_categories = {
 	cat_superior_firepower
 	cat_grand_battle_plan
 	cat_mass_assault
+	cat_deep_battle
+	cat_mass_mobilization
 	cat_base_strike
 	cat_trade_interdiction
 	cat_fleet_in_being
@@ -77,6 +79,7 @@ technology_categories = {
 	engineers_tech
 	recon_tech
 	mountaineers_tech
+	rangers_tech_cat
 	military_police_tech
 	hospital_tech
 	logistics_tech
@@ -99,7 +102,6 @@ technology_categories = {
 	deserti_tech
 	amechanized_equipment
 	commando_tech
-	foresti_tech
 	cat_torpedoes
 	cat_ship_light_battery
 	cat_ship_medium_battery
@@ -116,6 +118,7 @@ technology_categories = {
 	cat_mountaineers_doctrine
 	cat_marines_doctrine
 	cat_paratroopers_doctrine
+	cat_rangers_doctrine
 	naval_armor
 	naval_artillery
 	helicopter_tech
@@ -157,27 +160,25 @@ technology_folders = {
 				has_dlc = "No Step Back"
 			}
 		}
-
 	}
 	nsb_armour_folder = {
 		ledger = army
 		available = {
 			has_dlc = "No Step Back"
 		}
-
 	}
 	artillery_folder = {
 		ledger = army
 	}
 	air_techs_folder = {
 		available = {
-			not = { has_dlc = "By Blood Alone" }
+			NOT = { has_dlc = "By Blood Alone" }
 		}
 		ledger = air
 	}
 	air_bomber_techs_folder = {
 		available = {
-			not = { has_dlc = "By Blood Alone" }
+			NOT = { has_dlc = "By Blood Alone" }
 		}
 		ledger = air
 	}
@@ -193,23 +194,11 @@ technology_folders = {
 		}
 		ledger = air
 	}
-	naval_folder = {
-		available = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		ledger = navy
-	}
 	mtgnavalfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
 		ledger = navy
 	}
 	################
 	VUCE_navalfolder = {
-		available = {
-			has_dlc = "Man the Guns"
-		}
 		ledger = navy
 	}
 	################
@@ -223,6 +212,21 @@ technology_folders = {
 	industry_folder = {
 		ledger = civilian
 	}
+	special_forces_doctrine_folder = {
+		available = {
+			OR = {
+				has_dlc = "Arms Against Tyranny"
+				has_dlc = "No Compromise, No Surrender"
+			}
+		}
+		ledger = hidden #For now
+		doctrine = yes
+	}
+	electronics_folder = {
+		ledger = civilian
+	}
+
+	################ 保证HOI4后端跳转
 	land_doctrine_folder = {
 		ledger = army
 		doctrine = yes
@@ -234,16 +238,6 @@ technology_folders = {
 	air_doctrine_folder = {
 		ledger = air
 		doctrine = yes
-	}
-	special_forces_doctrine_folder = {
-		available = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		ledger = hidden #For now
-		doctrine = yes
-	}
-	electronics_folder = {
-		ledger = civilian
 	}
 }
 

@@ -146,6 +146,7 @@ spriteTypes = {
 
 	# TODO: 制作VUCE_missile_submarine.dds
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_missile_submarine" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_submarine.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_missile_submarine_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_submarine.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_missile_submarine_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_submarine.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_missile_submarine_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_submarine.dds" noOfFrames = 2 }
@@ -163,6 +164,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_missile_submarine_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_submarine.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_frigate" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_frigate.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_frigate.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_frigate.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_frigate.dds" noOfFrames = 2 }
@@ -180,6 +182,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_frigate.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_destroyer" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_destroyer.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_destroyer.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_destroyer.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_destroyer.dds" noOfFrames = 2 }
@@ -197,6 +200,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_destroyer.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_cruiser" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_cruiser.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_cruiser.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_cruiser.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_cruiser.dds" noOfFrames = 2 }
@@ -214,6 +218,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_cruiser.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_battleship" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_battleship.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_battleship.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_battleship.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_battleship.dds" noOfFrames = 2 }
@@ -231,6 +236,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_guided_missile_battleship.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_coldwar_carrier" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_coldwar_carrier.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_coldwar_carrier.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_coldwar_carrier.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_coldwar_carrier.dds" noOfFrames = 2 }
@@ -248,6 +254,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_coldwar_carrier.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_destroyer" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_destroyer.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_destroyer_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_destroyer.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_destroyer_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_destroyer.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_destroyer_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_destroyer.dds" noOfFrames = 2 }
@@ -265,6 +272,7 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_destroyer_15_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_destroyer.dds" noOfFrames = 2 }
 
 	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_frigate" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_frigate.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_frigate_1_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_frigate.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_frigate_2_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_frigate.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_VUCE_frigate_3_icon_medium" texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/navalcombat/VUCE_frigate.dds" noOfFrames = 2 }
@@ -305,14 +313,25 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_VUCE_destroyer_icon_medium_black" 					texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDw.dds" }
 	spriteType = { name = "GFX_unit_VUCE_frigate_icon_medium_black" 					texturefile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFw.dds" }
   # texticon
- 	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_icon_small" 				textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CVw.dds"	legacy_lazy_load = no }
-  	spriteType = { name = "GFX_unit_VUCE_coldwar_light_carrier_icon_small" 			textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CVLw.dds"	legacy_lazy_load = no }
- 	spriteType = { name = "GFX_unit_VUCE_lha_icon_small" 							textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/LHAw.dds"	legacy_lazy_load = no }
-  	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/BBGw.dds"	legacy_lazy_load = no }
-  	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CGw.dds"	legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDGw.dds"	legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFGw.dds"	legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_VUCE_missile_submarine_icon_small" 				textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/SSGw.dds"	legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_VUCE_destroyer_icon_small" 						textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDw.dds"	legacy_lazy_load = no }
-	spriteType = { name = "GFX_unit_VUCE_frigate_icon_small" 						textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_coldwar_carrier_icon_small" 				textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CVw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "unit_VUCE_coldwar_light_carrier_icon_small" 			textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CVLw.dds"	legacy_lazy_load = no }
+ 	spriteType = { name = "unit_VUCE_lha_icon_small" 							textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/LHAw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "unit_VUCE_guided_missile_battleship_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/BBGw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "unit_VUCE_guided_missile_cruiser_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_guided_missile_destroyer_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_guided_missile_frigate_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_missile_submarine_icon_small" 				textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/SSGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_destroyer_icon_small" 						textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_frigate_icon_small" 						textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFw.dds"	legacy_lazy_load = no }
+
+ 	spriteType = { name = "GFX_ship_VUCE_coldwar_carrier_icon_small" 				textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CVw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "GFX_ship_VUCE_coldwar_light_carrier_icon_small" 			textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CVLw.dds"	legacy_lazy_load = no }
+ 	spriteType = { name = "GFX_ship_VUCE_lha_icon_small" 							textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/LHAw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "GFX_ship_VUCE_guided_missile_battleship_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/BBGw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "GFX_ship_VUCE_guided_missile_cruiser_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/CGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_guided_missile_destroyer_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_guided_missile_frigate_icon_small" 		textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_missile_submarine_icon_small" 				textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/SSGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_destroyer_icon_small" 						textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/DDw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_frigate_icon_small" 						textureFile = "gfx/interface/VUCE_naval/ex_hull_icon/on_map/FFw.dds"	legacy_lazy_load = no }
 }

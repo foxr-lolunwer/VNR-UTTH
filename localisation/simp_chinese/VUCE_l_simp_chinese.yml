@@ -103,7 +103,7 @@
   VUCE_guided_missile_frigate_desc: "§H导弹护卫舰§!\n\n\n\n\n\n \n\n\n\n\n\n"
   VUCE_missile_submarine: "导弹潜艇"
   VUCE_missile_submarine_desc: "§H导弹潜艇§!\n\n\n\n\n\n£GFX_VUCE_missile_sub_desc_icon \n\n\n\n\n\n导弹潜艇是一类隐蔽远程打击平台，能够搭载舰对舰导弹或弹道导弹，对海面或战略目标实施突袭。冷战期间，导弹潜艇成为核威慑和海上战略投送的重要组成部分，其隐蔽性和远程打击能力使其成为现代海军最核心的战略资产之一。"
-  VUCE_lha: "两栖登陆舰船体"
+  VUCE_lha: "两栖登陆舰"
   VUCE_lha_desc: "二战时期的临时改装运输舰与登陆艇已难以满足现代战争的需求。首批专门设计的两栖登陆舰标志着海军登陆作战从“临时拼凑”迈向“体系化”的转折点。这类舰艇通过设置坞舱、车辆甲板与基础指挥设施，使部队、装甲车辆与登陆艇能够在同一平台上集中投送，并在近海条件下协调展开登陆行动。虽然其航空与防护能力仍然有限，但两栖登陆舰的出现，使大规模跨海登陆不再依赖改装舰只，为未来更加立体化、远程化的两栖作战奠定了基础。"
 #### EX EQUIPMENT
   VUCE_ship_hull_lha_1: "两栖登陆舰船体"
@@ -338,29 +338,50 @@
   VUCE_ship_helipad_1990: "1990 舰载直升机"
   VUCE_ship_helipad_1990_desc: "冷战后期的舰载直升机已经高度专业化，具备全天候反潜能力、多任务协同作战能力，以及与航母、护航舰和舰载预警机的数据链整合，使舰队在复杂作战环境中保持高效行动。"
 #### MODIFIER
+  modifier_experience_gain_VUCE_lha_training_factor: "两栖登陆舰训练经验增长"
+  modifier_experience_gain_VUCE_lha_mission_factor: "两栖登陆舰任务经验增长"
+  modifier_experience_gain_VUCE_lha_combat_factor: "两栖登陆舰战斗经验增长"
+  modifier_experience_gain_VUCE_destroyer_training_factor: "冷战驱逐舰训练经验增长"
+  modifier_experience_gain_VUCE_destroyer_mission_factor: "冷战驱逐舰任务经验增长"
+  modifier_experience_gain_VUCE_destroyer_combat_factor: "冷战驱逐舰战斗经验增长"
+  modifier_experience_gain_VUCE_guided_missile_frigate_training_factor: "导弹护卫舰训练经验增长"
+  modifier_experience_gain_VUCE_guided_missile_frigate_mission_factor: "导弹护卫舰任务经验增长"
+  modifier_experience_gain_VUCE_guided_missile_frigate_combat_factor: "导弹护卫舰战斗经验增长"
   modifier_experience_gain_VUCE_coldwar_carrier_training_factor: "冷战航母训练经验增长"
+  modifier_experience_gain_VUCE_coldwar_carrier_mission_factor: "冷战航母任务经验增长"
   modifier_experience_gain_VUCE_coldwar_carrier_combat_factor: "冷战航母战斗经验增长"
   modifier_experience_gain_VUCE_frigate_training_factor: "冷战护卫舰训练经验增长"
+  modifier_experience_gain_VUCE_frigate_mission_factor: "冷战护卫舰任务经验增长"
   modifier_experience_gain_VUCE_frigate_combat_factor: "冷战护卫舰战斗经验增长"
   modifier_experience_gain_VUCE_guided_missile_battleship_training_factor: "导弹战列舰训练经验增长"
+  modifier_experience_gain_VUCE_guided_missile_battleship_mission_factor: "导弹战列舰任务经验增长"
   modifier_experience_gain_VUCE_guided_missile_battleship_combat_factor: "导弹战列舰战斗经验增长"
   modifier_experience_gain_VUCE_guided_missile_cruiser_training_factor: "导弹巡洋舰训练经验增长"
+  modifier_experience_gain_VUCE_guided_missile_cruiser_mission_factor: "导弹巡洋舰任务经验增长"
   modifier_experience_gain_VUCE_guided_missile_cruiser_combat_factor: "导弹巡洋舰战斗经验增长"
   modifier_experience_gain_VUCE_guided_missile_destroyer_training_factor: "导弹驱逐舰训练经验增长"
+  modifier_experience_gain_VUCE_guided_missile_destroyer_mission_factor: "导弹驱逐舰任务经验增长"
   modifier_experience_gain_VUCE_guided_missile_destroyer_combat_factor: "导弹驱逐舰战斗经验增长"
   modifier_experience_gain_VUCE_missile_submarine_training_factor: "导弹潜艇训练经验增长"
+  modifier_experience_gain_VUCE_missile_submarine_mission_factor: "导弹潜艇任务经验增长"
   modifier_experience_gain_VUCE_missile_submarine_combat_factor: "导弹潜艇战斗经验增长"
 
 #### VNR FIX
   modifier_experience_gain_auxiliary_ship_training_factor: "辅助船训练经验增长"  # ADD
+  modifier_experience_gain_auxiliary_ship_mission_factor: "辅助船任务经验增长"  # ADD
   modifier_experience_gain_auxiliary_ship_combat_factor: "辅助船战斗经验增长"  # ADD
   modifier_experience_gain_battlecarrier_training_factor: "航空战列舰训练经验增长"  # ADD
+  modifier_experience_gain_battlecarrier_mission_factor: "航空战列舰任务经验增长"  # ADD
   modifier_experience_gain_battlecarrier_combat_factor: "航空战列舰战斗经验增长"  # ADD
   modifier_experience_gain_behemoth_training_factor: "战争巨兽训练经验增长"  # ADD
+  modifier_experience_gain_behemoth_mission_factor: "战争巨兽任务经验增长"  # ADD
   modifier_experience_gain_behemoth_combat_factor: "战争巨兽战斗经验增长"  # ADD
   modifier_experience_gain_medium_cruiser_training_factor: "重型舰队巡洋舰训练经验增长"  # ADD
+  modifier_experience_gain_medium_cruiser_mission_factor: "重型舰队巡洋舰任务经验增长"  # ADD
   modifier_experience_gain_medium_cruiser_combat_factor: "重型舰队巡洋舰战斗经验增长"  # ADD
   modifier_experience_gain_heavy_cruiser_training_factor: "重型主力巡洋舰训练经验增长"  # REPLACE
+  modifier_experience_gain_heavy_cruiser_mission_factor: "重型主力巡洋舰任务经验增长"  # REPLACE
   modifier_experience_gain_heavy_cruiser_combat_factor: "重型主力巡洋舰战斗经验增长"  # REPLACE
   modifier_experience_gain_SH_battleship_training_factor: "超重型战列舰训练经验增长"  # ADD
+  modifier_experience_gain_SH_battleship_mission_factor: "超重型战列舰任务经验增长"  # ADD
   modifier_experience_gain_SH_battleship_combat_factor: "超重型战列舰战斗经验增长"  # ADD
