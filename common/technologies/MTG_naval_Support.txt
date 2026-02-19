@@ -1141,7 +1141,7 @@ technologies = {
 	modern_generic_battery = {
 		research_cost = 0.75
 		start_year = 1949
-
+		# VUCE
 		path = {
 			leads_to_tech = VUCE_coldwar_light_battery_year55
 			research_cost_coeff = 1
@@ -1266,6 +1266,7 @@ technologies = {
 		on_research_complete = {
 			custom_effect_tooltip = ca_tech_9_tt
 		}
+		# VUC
 		path = {
 			leads_to_tech = ship_light_ASM_battery_1
 			research_cost_coeff = 1
@@ -1906,7 +1907,7 @@ technologies = {
 	coldwar_ship_torpedo_launcher = {
 		research_cost = 1
 		start_year = 1949
-
+		# VUCE
 		path = {
 			leads_to_tech = ship_torpedo_launcher_6
 			research_cost_coeff = 1
@@ -2039,6 +2040,7 @@ technologies = {
 			name = mtgnavalsupportfolder
 			position = { x = 0 y = 12 }
 		}
+		# VUCE
 		path = {
 			leads_to_tech = VUCE_coldwar_damage_control_1
 			research_cost_coeff = 1
@@ -2808,6 +2810,7 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1944
+		# VUCE
 		path = {
 			leads_to_tech = VUCE_coldwar_landing_craft_1
 			research_cost_coeff = 1
@@ -3235,14 +3238,17 @@ technologies = {
 
 		repair_speed_factor = 0.05
 		naval_accidents_chance = -0.05
-		heavy_cruiser = {
-			reliability = 0.1
-		}
-		medium_cruiser = {
-			reliability = 0.1
-		}
-		light_cruiser = {
-			reliability = 0.1
+
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = support_fleet
+				bonus = {
+					ship_hull_cruiser = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 		special_project_specialization = { specialization_naval }
 		categories = {
@@ -3267,14 +3273,16 @@ technologies = {
 
 		repair_speed_factor = 0.1
 		naval_accidents_chance = -0.05
-		battleship = {
-			reliability = 0.1
-		}
-		battle_cruiser = {
-			reliability = 0.1
-		}
-		SH_battleship = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = floating_dry_dock
+				bonus = {
+					ship_hull_heavy = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3295,14 +3303,24 @@ technologies = {
 			position = { x = 8 y = 16 }
 		}
 
-		auxiliary_ship = {
-			build_cost_ic = -0.1
-		}
-		destroyer = {
-			reliability = 0.1
-		}
-		submarine = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = logistic_system_redundancy_ncns
+				bonus = {
+					ship_hull_light = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_submarine = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_civilian = {
+						build_cost_ic = -0.1
+						instant = yes
+					}
+				}
+			}
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3334,14 +3352,16 @@ technologies = {
 
 		repair_speed_factor = 0.05
 		naval_accidents_chance = -0.05
-		heavy_cruiser = {
-			reliability = 0.1
-		}
-		medium_cruiser = {
-			reliability = 0.1
-		}
-		light_cruiser = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = support_fleet_ncns
+				bonus = {
+					ship_hull_cruiser = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 		enable_equipments = {
 			support_ship_1
@@ -3370,14 +3390,16 @@ technologies = {
 
 		repair_speed_factor = 0.1
 		naval_accidents_chance = -0.05
-		battleship = {
-			reliability = 0.1
-		}
-		battle_cruiser = {
-			reliability = 0.1
-		}
-		SH_battleship = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = floating_dry_dock
+				bonus = {
+					ship_hull_heavy = {
+						reliability = 0.1
+						instant = yes
+					}
+				}
+			}
 		}
 
 		special_project_specialization = { specialization_naval }
@@ -3400,14 +3422,24 @@ technologies = {
 			position = { x = 8 y = 16 }
 		}
 
-		auxiliary_ship = {
-			build_cost_ic = -0.1
-		}
-		destroyer = {
-			reliability = 0.1
-		}
-		submarine = {
-			reliability = 0.1
+		on_research_complete = {
+			add_equipment_bonus = {
+				name = logistic_system_redundancy_ncns
+				bonus = {
+					ship_hull_light = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_submarine = {
+						reliability = 0.1
+						instant = yes
+					}
+					ship_hull_civilian = {
+						build_cost_ic = -0.1
+						instant = yes
+					}
+				}
+			}
 		}
 		enable_equipments = {
 			support_ship_2
@@ -3666,16 +3698,6 @@ technologies = {
 		}
 	}
 
-
-	vnr_less_fuel_consumption = {
-        research_cost = 1
-		start_year = 1900
-
-		allow = {
-			always = no
-		}
-        navy_fuel_consumption_factor = -0.15
-    }
 #######################################################
 #######################################################
 #######################################################

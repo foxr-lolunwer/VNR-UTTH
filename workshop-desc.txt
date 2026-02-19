@@ -1,0 +1,84 @@
+english:
+[h1]- MOD Ver:[b]Neo 1.8 alpha[/b][/h1]
+[h2]- VNR Ver:[b]v2.8 - Leyte Gulf[/b] (Jan 1, 2026, UTC+8)[/h2]
+[h2]- UTTNH Ver:[b]Jan 11, 2026, UTC+8[/b][/h2]
+
+[h1]Please see the change notes for updates[/h1]
+
+[b]Some aspects of the Cold War Naval game are currently unfinished, so if you plan to play VUCE-produced Cold War content, your experience may be compromised.[/b]
+[b](VUCE: VNR+UTTNH Compatch Expand)[/b]
+
+[h1]Function[/h1]
+[b]By using this mod you can make [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2993766165]VNR [/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3413890094]Ultimate Tech Tree: New Horizon[/url] Compatible.[/b]
+
+[b]Unlike most compatible mods, this mod allows you to expand your VNR into the 90s![/b]
+
+The naval design of UTTNH follows the vanilla naval designer, and the AI cannot design ships, which greatly reduces the playability of naval battles in the middle and late stages of the game. VNR solves these two problems, but the naval technology tree of VNR only reaches 1955, and the two are incompatible with each other.
+
+By using this mod, VNR can be made compatible with UTTNH. At the same time, VNR's naval designer and AI naval design are used, and the technology is guided to the 1990s.
+
+[h1]Plans after:[/h1]
+[list]
+[*] Look for potential conflict issues
+[*] Added additional Cold War ship parts
+[*] Make UTTNH accessory values consistent with VNR style
+[/list]
+
+[h1]Note:[/h1]
+[list]
+[*] You should rank this mod after VNR and UTTNH (optional)
+[*] If you have any questions, please point them out in the comment area. The author will usually reply within 1 day and start solving the problem.
+[*] Please subscribe to VNR (Vanilla Navy Rework) instead of VNR CN (原版海军重置)
+[*] VNR + Extended Tech Tree 1960 Compatibility Pack:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3167054950] click here[/url]
+[*] VNR + UTTNH + RT56 Compatibility Pack:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3457591333] click here[/url]
+[*] VNR + UTTNH Expanded Compatibility Pack (Not maintained by me):[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417821632] click here[/url]
+[*] Chinese-English translation completed by Google Gemini. ParaTranz text proofreading address:[url=https://paratranz.cn/projects/16522] click here[/url]
+[/list]
+
+simp_chinese:
+[h1]- 模组版本:[b]Neo 1.8 alpha[/b][/h1]
+[h2]- 原版海军重置版本:[b]v2.8 “莱特湾之战”[/b] (UTC+8 2026.1.1)[/h2]
+[h2]- UTTNH版本:[b]UTC+8 2026.1.11[/b][/h2]
+
+[h1]有关更新请查看改动说明[/h1]
+
+[b]目前冷战海军一些部分尚未完成，如果您打算游玩 VUCE 制作的冷战内容可能会对您的体验造成一定的损害。[/b]
+[b](VUCE：VNR+UTTNH Compatch Expand)[/b]
+
+[h1]功能[/h1]
+[b]通过使用该mod可以使[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2993772482] 原版海军重置 [/url]和[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3413890094] Ultimate Tech Tree: New Horizon [/url]兼容[/b]
+
+[b]不像大多数兼容mod，该mod可以让你的VNR拓展到90年代！[/b]
+
+UTTNH的海军设计沿用了原版海军设计器，并且AI不会设计舰船，这大大降低了游戏中后期海战的可玩性。而VNR则解决了这两个问题，可是VNR的海军科技树只到达1955年，并且两者互不兼容。
+
+通过使用本mod可以使VNR兼容UTTNH。同时沿用VNR的海军设计器、AI海军设计，并且将科技导向20世纪90年代。
+
+[h1]之后的计划：[/h1]
+[list]
+[*] 寻找潜在的冲突问题
+[*] 添加额外的的冷战舰船部件
+[*] 使UTTNH配件数值和VNR风格一致
+[/list]
+
+[h1]注意：[/h1]
+[list]
+[*] 您应该将此模组排在VNR和UTTNH后（选做）(谢天谢地，P社老爷的钢铁雄心4mod总算是可以排序了)
+[*] 有问题请在评论区指出，作者一般会在1天内回复并着手解决问题
+[*] 中文玩家请订阅原版海军重置而不是Vanilla Navy Rework
+[*] 启用此mod后，中文玩家将不能在英文版本游玩原版海军重置(中文版本)|但您可以通过修改本地化文件解决这个问题
+[*] VNR + Extended Tech Tree 1960 兼容包:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3167054950] 点击这里[/url]
+[*] VNR + UTTNH + RT56 兼容包:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3457591333] 点击这里[/url]
+[*] VNR + UTTNH Expanded 兼容包 (不由我维护):[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3417821632] 点击这里[/url]
+[*] 作者参与的 Ultimate Tech Tree: New Horizon 汉化:[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3376363586] 点击这里[/url]
+[/list]
+
+重新设计了冷战武器部件和船体的数值。
+延长了火控、损管和登陆科技。
+调整了海军支援武器的布局。
+添加了两栖登陆舰这一新舰种。
+补全了部分纹理，优化了部分纹理。
+重新设计了舰船建造界面，现在它可以显示过量的舰船类型。
+替换了部分舰船属性的本地化。
+修复了英文模式下VNR舰船分类显示为中文的问题。
+其他细节更新。

@@ -1,0 +1,10 @@
+debug/
+*.py
+psd/
+*.psd
+VNR+UTTH.code-workspace
+.gitignore
+interface/src
+.git
+release.ignore
+workshop-desc.txt
