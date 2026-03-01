@@ -51,9 +51,11 @@ It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced sys
 
 ## 💻 本地部署指南 / Local Deployment
 若要从 GitHub 下载并进行本地部署，请参考以下步骤：
+> [!WARNING]
+> 不要下载源码后直接启用本模组，至少需要确保删除interface下的src文件夹及其子文件夹下的所有.gfx文件`
 
 1.  **放置项目**：将本项目文件夹放置在：
-    `<盘符>:\Users\<用户名>\Documents\Paradox Interactive\Hearts of Iron IV\mod\`
+    `你的游戏文档路径（不是安装路径，一般是C:\Users\<用户名>\Documents\Paradox Interactive\Hearts of Iron IV）\mod\`
 2.  **新建引导文件**：在上述文件夹中新建一个名为 `xxx.mod` 的文本文件。
 3.  **同步描述信息**：将本项目中 `descriptor.mod` 的内容全部复制到该文件中。
 4.  **添加绝对路径**：在文件末尾添加一行：
