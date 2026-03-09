@@ -9,3 +9,4 @@ interface/src
 .git
 release.ignore
 workshop-desc.txt
+descriptor.mod

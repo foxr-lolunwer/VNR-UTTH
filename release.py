@@ -3,7 +3,30 @@ import shutil
 from pathlib import Path
 import pathspec
 
-def sync_with_ignore_mechanism(ignore_file=".myignore", dest_dir="../destination"):
+MOD_TEXT = '''\
+version="Neo 1.82"
+tags={
+	"Fixes"
+}
+dependencies={
+	"UTTNH_2.0"
+	"Ultimate Tech Tree : New Horizon CN | UTTNH_2.0 CN Translation (ver.FL)"
+	"原版海军重置"
+	"Vanilla Navy Rework"
+	"KR海军重置"
+	"Kaiserreich Naval Rework"
+	"The Road to 56"
+	"The Road to 56 CN——外挂版"
+	"Kaiserreich"
+	"Kaiserreich(CN.Ver)"
+}
+name="VNR + UTTNH Compatch | 原版海军重置+UTTNH兼容包"
+supported_version="1.17.*"
+path="E:/Documents/Paradox Interactive/Hearts of Iron IV/mod/A VNR+UTTH"
+remote_file_id="3164741523"
+'''
+
+def sync_with_ignore_mechanism(descriptor_mod_text, ignore_file=".myignore", dest_dir="../destination"):
     # 1. 初始化路径
     # Path(__file__).parent 指向脚本所在的当前文件夹
     src_path = Path(__file__).parent.resolve()
@@ -52,7 +75,14 @@ def sync_with_ignore_mechanism(ignore_file=".myignore", dest_dir="../destination
                 # print(f"[已复制] {rel_path}") # 如果文件太多可以注释掉这一行
 
     print(f"\n任务完成！共复制了 {count} 个文件到 {dest_path}")
+    descriptor_file_path = os.path.join(dest_dir, "descriptor.mod")
+    try:
+        with open(descriptor_file_path, 'w', encoding='utf-8') as f:
+            f.write(descriptor_mod_text)
+        print(f"成功创建descriptor.mod文件: {descriptor_file_path}")
+    except Exception as e:
+        print(f"创建descriptor.mod文件时出错: {e}")
 
 if __name__ == "__main__":
     # 你可以在这里修改规则文件名和目标位置
-    sync_with_ignore_mechanism("release.ignore", "../A VNR+UTTH")
+    sync_with_ignore_mechanism(MOD_TEXT, "release.ignore", "../A VNR+UTTH")
