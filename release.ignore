@@ -1,5 +1,6 @@
 debug/
 *.py
+*.png
 psd/
 *.psd
 VNR+UTTH.code-workspace
