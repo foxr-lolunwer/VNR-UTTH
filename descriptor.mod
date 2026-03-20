@@ -1,4 +1,4 @@
-version="Neo 1.82"
+version="Neo 1.8.2-hotupdate1"
 tags={
 	"Fixes"
 }
