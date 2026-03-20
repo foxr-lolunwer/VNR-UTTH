@@ -1,0 +1,25 @@
+# --- Missing in your Mod (from external MTG_naval_Support.txt) ---
+basic_medium_battery = { research_cost = 1 }
+basic_medium_shell = { research_cost = 1 }
+improved_medium_battery = { research_cost = 1 }
+improved_medium_shell = { research_cost = 1 }
+advanced_medium_battery = { research_cost = 1 }
+basic_dp_medium_battery = { research_cost = 1 }
+sp_improved_support_ship = { research_cost = 1 }
+sp_improved_repair_ship = { research_cost = 1 }
+
+# --- Missing in your Mod (from external MTG_naval.txt) ---
+basic_cruiser_armor_scheme = { research_cost = 1 }
+basic_heavy_armor_scheme = { research_cost = 1 }
+improved_heavy_armor_scheme = { research_cost = 1 }
+sp_aip_engine_improved_tech = { research_cost = 1 }
+sp_aip_engine_advanced_tech = { research_cost = 1 }
+sp_refined_pykrete = { research_cost = 1 }
+sp_ice_composite_runawayas = { research_cost = 1 }
+sp_naval_proximity_fuze_tech = { research_cost = 1 }
+sp_naval_support_ships_pick_a = { research_cost = 1 }
+sp_naval_support_ships_pick_b = { research_cost = 1 }
+sp_naval_support_ships_pick_c = { research_cost = 1 }
+sp_naval_repair_ships_pick_a = { research_cost = 1 }
+sp_naval_repair_ships_pick_b = { research_cost = 1 }
+sp_naval_repair_ships_pick_c = { research_cost = 1 }

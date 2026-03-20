@@ -1,0 +1,341 @@
+technologies = {
+  # air_doctrine
+  # air_techs
+	improved_transport_plane = { research_cost = 1 }
+	strategic_airlifter = { research_cost = 1 }
+	cv_early_fighter = { research_cost = 1 }
+	fighter_bomber2 = { research_cost = 1 }
+	fighter_bomber3 = { research_cost = 1 }
+	supersonic_fighter1 = { research_cost = 1 }
+	hfighter_bomber1 = { research_cost = 1 }
+	hfighter_bomber2 = { research_cost = 1 }
+	hfighter_bomber3 = { research_cost = 1 }
+	med_maritime1 = { research_cost = 1 }
+	med_maritime2 = { research_cost = 1 }
+	med_maritime3 = { research_cost = 1 }
+  # armor
+	super_heavy_tank = { research_cost = 1 }
+	super_heavy_td = { research_cost = 1 }
+	super_heavy_art = { research_cost = 1 }
+	super_heavy_spaa = { research_cost = 1 }
+	super_heavy_tank_a = { research_cost = 1 }
+	super_heavy_tank_td_a = { research_cost = 1 }
+	super_heavy_tank_art_a = { research_cost = 1 }
+	super_heavy_tank_spaa_a = { research_cost = 1 }
+	super_heavy_tank_b = { research_cost = 1 }
+	super_heavy_tank_td_b = { research_cost = 1 }
+	super_heavy_tank_art_b = { research_cost = 1 }
+	super_heavy_tank_spaa_b = { research_cost = 1 }
+	advanced_light_tank_a = { research_cost = 1 }
+	advanced_light_tank_td_a = { research_cost = 1 }
+	advanced_light_tank_art_a = { research_cost = 1 }
+	advanced_light_tank_spaa_a = { research_cost = 1 }
+	advanced_light_tank_b = { research_cost = 1 }
+	advanced_light_tank_td_b = { research_cost = 1 }
+	advanced_light_tank_art_b = { research_cost = 1 }
+	advanced_light_tank_spaa_b = { research_cost = 1 }
+	main_battle_tank_a = { research_cost = 1 }
+	main_battle_tank_td_a = { research_cost = 1 }
+	main_battle_tank_art_a = { research_cost = 1 }
+	main_battle_tank_spaa_a = { research_cost = 1 }
+	main_battle_tank_b = { research_cost = 1 }
+	main_battle_tank_td_b = { research_cost = 1 }
+	main_battle_tank_art_b = { research_cost = 1 }
+	main_battle_tank_spaa_b = { research_cost = 1 }
+	main_battle_tank_c = { research_cost = 1 }
+	main_battle_tank_td_c = { research_cost = 1 }
+	main_battle_tank_art_c = { research_cost = 1 }
+	main_battle_tank_spaa_c = { research_cost = 1 }
+	main_battle_tank_d = { research_cost = 1 }
+	main_battle_tank_td_d = { research_cost = 1 }
+	main_battle_tank_art_d = { research_cost = 1 }
+	main_battle_tank_spaa_d = { research_cost = 1 }
+	main_battle_tank_e = { research_cost = 1 }
+	main_battle_tank_td_e = { research_cost = 1 }
+	main_battle_tank_art_e = { research_cost = 1 }
+	main_battle_tank_spaa_e = { research_cost = 1 }
+	mountain_tanks = { research_cost = 1 }
+  # artillery
+	artillery_a = { research_cost = 1 }
+	artillery_b = { research_cost = 1 }
+	artillery_c = { research_cost = 1 }
+	artillery_d = { research_cost = 1 }
+	artillery_e = { research_cost = 1 }
+	rocket_artillery_a = { research_cost = 1 }
+	rocket_artillery_b = { research_cost = 1 }
+	rocket_artillery_c = { research_cost = 1 }
+	rocket_artillery_d = { research_cost = 1 }
+	rocket_artillery_e = { research_cost = 1 }
+	antiair_a = { research_cost = 1 }
+	antiair_b = { research_cost = 1 }
+	antiair_c = { research_cost = 1 }
+	antiair_d = { research_cost = 1 }
+	antiair_e = { research_cost = 1 }
+	antitank_a = { research_cost = 1 }
+	antitank_b = { research_cost = 1 }
+	antitank_c = { research_cost = 1 }
+	antitank_d = { research_cost = 1 }
+	antitank_e = { research_cost = 1 }
+  # bba_air_techs
+	supersonic_small_airframe = { research_cost = 1 }
+	heavy_bombs = { research_cost = 1 }
+  # electronic_mechanical_engineering
+	semi_modern_radio = { research_cost = 1 }
+	modern_radio = { research_cost = 1 }
+	# basic_identification_friend_or_foe = { research_cost = 1 }
+	# rdf0 = { research_cost = 1 }
+	# rdf1 = { research_cost = 1 }
+	# rdf2 = { research_cost = 1 }
+	# rdf3 = { research_cost = 1 }
+	# rdf_partisan = { research_cost = 1 }
+	# rdf4 = { research_cost = 1 }
+	# rdf5 = { research_cost = 1 }
+	# rdf6 = { research_cost = 1 }
+	future_radar = { research_cost = 1 }
+	future_radar_2 = { research_cost = 1 }
+	future_radar_3 = { research_cost = 1 }
+	future_computing_machine = { research_cost = 1 }
+	future_computing_machine_2 = { research_cost = 1 }
+	future_computing_machine_3 = { research_cost = 1 }
+	future_computing_machine_4 = { research_cost = 1 }
+	future_encryption = { research_cost = 1 }
+	future_decryption = { research_cost = 1 }
+	future_encryption_2 = { research_cost = 1 }
+	future_decryption_2 = { research_cost = 1 }
+	future_encryption_3 = { research_cost = 1 }
+	future_decryption_3 = { research_cost = 1 }
+	improved_rocket_engines = { research_cost = 1 }
+	advanced_rocket_engines = { research_cost = 1 }
+	lar_decryption_bonus_tech = { research_cost = 1 }
+  # industry
+	construction_a = { research_cost = 1 }
+	excavation_a = { research_cost = 1 }
+	construction_b = { research_cost = 1 }
+	excavation_b = { research_cost = 1 }
+	construction_c = { research_cost = 1 }
+	excavation_c = { research_cost = 1 }
+	construction_d = { research_cost = 1 }
+	excavation_d = { research_cost = 1 }
+	rubber_plant_a = { research_cost = 1 }
+	rubber_plant_b = { research_cost = 1 }
+	rubber_plant_c = { research_cost = 1 }
+	rubber_plant_d = { research_cost = 1 }
+	flexible_line_a = { research_cost = 1 }
+	streamlined_line_a = { research_cost = 1 }
+	streamlined_line_b = { research_cost = 1 }
+	streamlined_line_c = { research_cost = 1 }
+	streamlined_line_d = { research_cost = 1 }
+	concentrated_industry_a = { research_cost = 1 }
+	dispersed_industry_a = { research_cost = 1 }
+	concentrated_industry_b = { research_cost = 1 }
+	dispersed_industry_b = { research_cost = 1 }
+	concentrated_industry_c = { research_cost = 1 }
+	dispersed_industry_c = { research_cost = 1 }
+	concentrated_industry_d = { research_cost = 1 }
+	dispersed_industry_d = { research_cost = 1 }
+	sniper_rifle = { research_cost = 1 }
+	r56_anti_tank_kit = { research_cost = 1 }
+	elite_forces_02 = { research_cost = 1 }
+	elite_forces_03 = { research_cost = 1 }
+	mountain_defensive_training = { research_cost = 1 }
+	advanced_infantry_weapons_b = { research_cost = 1 }
+	advanced_infantry_weapons_c = { research_cost = 1 }
+	advanced_infantry_weapons_d = { research_cost = 1 }
+	advanced_infantry_weapons_e = { research_cost = 1 }
+	advanced_infantry_weapons_f = { research_cost = 1 }
+	infantry_at_a = { research_cost = 1 }
+	infantry_at_b = { research_cost = 1 }
+	infantry_at_c = { research_cost = 1 }
+	paratroopers_a = { research_cost = 1 }
+	paratroopers_b = { research_cost = 1 }
+	paratroopers_c = { research_cost = 1 }
+	marines_a = { research_cost = 1 }
+	marines_b = { research_cost = 1 }
+	marines_c = { research_cost = 1 }
+	mountaineers_a = { research_cost = 1 }
+	mountaineers_b = { research_cost = 1 }
+	mountaineers_c = { research_cost = 1 }
+	jungletroops = { research_cost = 1 }
+	jungletroops2 = { research_cost = 1 }
+	jungletroops3 = { research_cost = 1 }
+	jungletroops4 = { research_cost = 1 }
+	jungletroops5 = { research_cost = 1 }
+	jungletroops6 = { research_cost = 1 }
+	shocktroops = { research_cost = 1 }
+	shocktroops2 = { research_cost = 1 }
+	shocktroops3 = { research_cost = 1 }
+	shocktroops4 = { research_cost = 1 }
+	shocktroops5 = { research_cost = 1 }
+	shocktroops6 = { research_cost = 1 }
+	support_weapons_a = { research_cost = 1 }
+	support_weapons_b = { research_cost = 1 }
+	night_vision_a = { research_cost = 1 }
+	support_weapons_c = { research_cost = 1 }
+	elephantry = { research_cost = 1 }
+	winter_clothes_gw = { research_cost = 1 }
+	winter_clothes_1939 = { research_cost = 1 }
+	winter_clothes_1941 = { research_cost = 1 }
+	winter_clothes_1944 = { research_cost = 1 }
+	jaegers = { research_cost = 1 }
+	jaegers2 = { research_cost = 1 }
+	jaegers3 = { research_cost = 1 }
+	jaegers4 = { research_cost = 1 }
+	jaegers5 = { research_cost = 1 }
+	jaegers6 = { research_cost = 1 }
+	jngdst_clothes_gw = { research_cost = 1 }
+	jngdst_clothes_1939 = { research_cost = 1 }
+	jngdst_clothes_1941 = { research_cost = 1 }
+	jngdst_clothes_1944 = { research_cost = 1 }
+	desertinfantry_at = { research_cost = 1 }
+	desertinfantry_at2 = { research_cost = 1 }
+	desertinfantry_at3 = { research_cost = 1 }
+	desertinfantry_at4 = { research_cost = 1 }
+	desertinfantry_at5 = { research_cost = 1 }
+	desertinfantry_at6 = { research_cost = 1 }
+	camo = { research_cost = 1 }
+	camo1942 = { research_cost = 1 }
+	camo1948 = { research_cost = 1 }
+	camo1955 = { research_cost = 1 }
+	r56_SWE_lynx_armored_car = { research_cost = 1 }
+  # land_doctrine
+	mission_type_tactics = { research_cost = 1 }
+	force_concentration = { research_cost = 1 }
+	tactical_command = { research_cost = 1 }
+	r56_guerilla_warfare = { research_cost = 1 }
+	r56_double_envelopment = { research_cost = 1 }
+	r56_elastic_defence = { research_cost = 1 }
+	r56_infiltration_assault = { research_cost = 1 }
+	r56_infiltration_in_depth = { research_cost = 1 }
+	r56_backhand_blow = { research_cost = 1 }
+	r56_milita_formation = { research_cost = 1 }
+	r56_nd_conscription = { research_cost = 1 }
+	r56_peoples_army = { research_cost = 1 }
+	r56_tactical_withdrawal = { research_cost = 1 }
+	r56_prepared_defense = { research_cost = 1 }
+	r56_pocket_defence = { research_cost = 1 }
+	r56_last_stand = { research_cost = 1 }
+	r56_breakout = { research_cost = 1 }
+	r56_breakthrough_priority = { research_cost = 1 }
+	r56_operational_concentration = { research_cost = 1 }
+	masterful_blitz = { research_cost = 1 }
+	masterful_double_envelopment = { research_cost = 1 }
+	masterful_backhand_blow = { research_cost = 1 }
+  # MTG_naval
+	modern_ship_hull_heavy = { research_cost = 1 }
+	modern_ship_hull_carrier = { research_cost = 1 }
+  # MTG_naval_Support
+  # naval
+	semi_modern_destroyer = { research_cost = 1 }
+	semi_modern_light_cruiser = { research_cost = 1 }
+	semi_modern_heavy_cruiser = { research_cost = 1 }
+	semi_modern_battleship = { research_cost = 1 }
+	semi_modern_carrier = { research_cost = 1 }
+	semi_modern_submarine = { research_cost = 1 }
+  # naval_doctrine
+  # NSB_armor
+	modern_light_tank_chassis = { research_cost = 1 }
+	advanced_main_battle_tank_chassis = { research_cost = 1 }
+	oscillating_turret_tech = { research_cost = 1 }
+  # r56_vechicles
+	# r56_combat_service = { research_cost = 1 }
+	# r56_convoy_highways = { research_cost = 1 }
+	# r56_convoy_highways_2 = { research_cost = 1 }
+	# r56_convoy_highways_3 = { research_cost = 1 }
+	# r56_convoy_highways_4 = { research_cost = 1 }
+	mechanised_infantry_a = { research_cost = 1 }
+	r56_gw_railway_gun = { research_cost = 1 }
+	r56_railway_mortar_subtech = { research_cost = 1 }
+	r56_mid_wartime_train = { research_cost = 1 }
+	r56_postwar_train = { research_cost = 1 }
+	# r56_flexible_railnetwork = { research_cost = 1 }
+	# r56_military_railnetwork = { research_cost = 1 }
+	# r56_modern_military_railnetwork = { research_cost = 1 }
+	r56_modern_military_railnetwork_2 = { research_cost = 1 }
+	tech_recon_focus_bonus = { research_cost = 1 }
+  # special_forces_doctrine
+	special_forces_shocktroops = { research_cost = 1 }
+	shocktroop_level_1_a = { research_cost = 1 }
+	shocktroop_level_1_b = { research_cost = 1 }
+	shocktroop_keystone_1 = { research_cost = 1 }
+	shocktroop_level_2_a = { research_cost = 1 }
+	shocktroop_level_2_b = { research_cost = 1 }
+	shocktroop_keystone_2 = { research_cost = 1 }
+	shocktroop_level_3_a = { research_cost = 1 }
+	shocktroop_level_3_b = { research_cost = 1 }
+  # support
+	flamethrower = { research_cost = 1 }
+	tech_engineers_a = { research_cost = 1 }
+	tech_engineers_b = { research_cost = 1 }
+	tech_engineers_c = { research_cost = 1 }
+	tech_recon_a = { research_cost = 1 }
+	tech_recon_b = { research_cost = 1 }
+	tech_recon_c = { research_cost = 1 }
+	tech_military_police_a = { research_cost = 1 }
+	tech_military_police_b = { research_cost = 1 }
+	tech_military_police_c = { research_cost = 1 }
+	tech_maintenance_company_a = { research_cost = 1 }
+	tech_maintenance_company_b = { research_cost = 1 }
+	tech_maintenance_company_c = { research_cost = 1 }
+	tech_field_hospital_a = { research_cost = 1 }
+	tech_field_hospital_b = { research_cost = 1 }
+	tech_field_hospital_c = { research_cost = 1 }
+	tech_logistics_company_a = { research_cost = 1 }
+	tech_logistics_company_b = { research_cost = 1 }
+	tech_logistics_company_c = { research_cost = 1 }
+	tech_signal_company_a = { research_cost = 1 }
+	tech_signal_company_b = { research_cost = 1 }
+	tech_signal_company_c = { research_cost = 1 }
+ # r56_special_projects_techs
+	r56_improved_optics_tech_1 = { research_cost = 1 }
+	r56_improved_optics_tech_2 = { research_cost = 1 }
+	r56_gammon_bomb_tech = { research_cost = 1 }
+	r56_anti_tank_rifle_grenade_tech = { research_cost = 1 }
+	r56_heavy_tank_studies_tech = { research_cost = 1 }
+	r56_fido_tech = { research_cost = 1 }
+	# r56_improved_iff_tech = { research_cost = 1 }
+	r56_sp_helicopter_tech = { research_cost = 1 }
+	r56_sp_naval_huff_duff_device_tech = { research_cost = 1 }
+
+  # 2026.3.16 update
+	# --- Missing in your Mod (from external air_techs.txt) ---
+	strat_maritime1 = { research_cost = 1 }
+	strat_maritime2 = { research_cost = 1 }
+	strat_maritime3 = { research_cost = 1 }
+	flying_boat = { research_cost = 1 }
+	flying_boat1 = { research_cost = 1 }
+	flying_boat2 = { research_cost = 1 }
+	flying_boat3 = { research_cost = 1 }
+	cv_jet_fighter1 = { research_cost = 1 }
+	cv_jet_fighter2 = { research_cost = 1 }
+	cv_jet_fighter_a = { research_cost = 1 }
+	jet_tactical_bomber_a = { research_cost = 1 }
+	jet_strategic_bomber_a = { research_cost = 1 }
+	# --- Missing in your Mod (from external infantry.txt) ---
+	rangers_a = { research_cost = 1 }
+	rangers_b = { research_cost = 1 }
+	rangers_c = { research_cost = 1 }
+	# --- Missing in your Mod (from external MTG_naval_Support.txt) ---
+	basic_medium_battery = { research_cost = 1 }
+	basic_medium_shell = { research_cost = 1 }
+	improved_medium_battery = { research_cost = 1 }
+	improved_medium_shell = { research_cost = 1 }
+	advanced_medium_battery = { research_cost = 1 }
+	basic_dp_medium_battery = { research_cost = 1 }
+	sp_improved_support_ship = { research_cost = 1 }
+	sp_improved_repair_ship = { research_cost = 1 }
+	# --- Missing in your Mod (from external MTG_naval.txt) ---
+	basic_cruiser_armor_scheme = { research_cost = 1 }
+	basic_heavy_armor_scheme = { research_cost = 1 }
+	improved_heavy_armor_scheme = { research_cost = 1 }
+	sp_aip_engine_improved_tech = { research_cost = 1 }
+	sp_aip_engine_advanced_tech = { research_cost = 1 }
+	sp_refined_pykrete = { research_cost = 1 }
+	sp_ice_composite_runawayas = { research_cost = 1 }
+	sp_naval_proximity_fuze_tech = { research_cost = 1 }
+	sp_naval_support_ships_pick_a = { research_cost = 1 }
+	sp_naval_support_ships_pick_b = { research_cost = 1 }
+	sp_naval_support_ships_pick_c = { research_cost = 1 }
+	sp_naval_repair_ships_pick_a = { research_cost = 1 }
+	sp_naval_repair_ships_pick_b = { research_cost = 1 }
+	sp_naval_repair_ships_pick_c = { research_cost = 1 }
+}
