@@ -133,8 +133,9 @@ technologies = {
 	dispersed_industry_c = { research_cost = 1 }
 	concentrated_industry_d = { research_cost = 1 }
 	dispersed_industry_d = { research_cost = 1 }
-	sniper_rifle = { research_cost = 1 }
-	r56_anti_tank_kit = { research_cost = 1 }
+	# infantry
+	# sniper_rifle = { research_cost = 1 }
+	# r56_anti_tank_kit = { research_cost = 1 }
 	elite_forces_02 = { research_cost = 1 }
 	elite_forces_03 = { research_cost = 1 }
 	mountain_defensive_training = { research_cost = 1 }
@@ -172,30 +173,30 @@ technologies = {
 	night_vision_a = { research_cost = 1 }
 	support_weapons_c = { research_cost = 1 }
 	elephantry = { research_cost = 1 }
-	winter_clothes_gw = { research_cost = 1 }
-	winter_clothes_1939 = { research_cost = 1 }
-	winter_clothes_1941 = { research_cost = 1 }
-	winter_clothes_1944 = { research_cost = 1 }
+	# winter_clothes_gw = { research_cost = 1 }
+	# winter_clothes_1939 = { research_cost = 1 }
+	# winter_clothes_1941 = { research_cost = 1 }
+	# winter_clothes_1944 = { research_cost = 1 }
 	jaegers = { research_cost = 1 }
 	jaegers2 = { research_cost = 1 }
 	jaegers3 = { research_cost = 1 }
 	jaegers4 = { research_cost = 1 }
 	jaegers5 = { research_cost = 1 }
 	jaegers6 = { research_cost = 1 }
-	jngdst_clothes_gw = { research_cost = 1 }
-	jngdst_clothes_1939 = { research_cost = 1 }
-	jngdst_clothes_1941 = { research_cost = 1 }
-	jngdst_clothes_1944 = { research_cost = 1 }
+	# jngdst_clothes_gw = { research_cost = 1 }
+	# jngdst_clothes_1939 = { research_cost = 1 }
+	# jngdst_clothes_1941 = { research_cost = 1 }
+	# jngdst_clothes_1944 = { research_cost = 1 }
 	desertinfantry_at = { research_cost = 1 }
 	desertinfantry_at2 = { research_cost = 1 }
 	desertinfantry_at3 = { research_cost = 1 }
 	desertinfantry_at4 = { research_cost = 1 }
 	desertinfantry_at5 = { research_cost = 1 }
 	desertinfantry_at6 = { research_cost = 1 }
-	camo = { research_cost = 1 }
-	camo1942 = { research_cost = 1 }
-	camo1948 = { research_cost = 1 }
-	camo1955 = { research_cost = 1 }
+	# camo = { research_cost = 1 }
+	# camo1942 = { research_cost = 1 }
+	# camo1948 = { research_cost = 1 }
+	# camo1955 = { research_cost = 1 }
 	r56_SWE_lynx_armored_car = { research_cost = 1 }
   # land_doctrine
 	mission_type_tactics = { research_cost = 1 }
@@ -243,14 +244,14 @@ technologies = {
 	# r56_convoy_highways_3 = { research_cost = 1 }
 	# r56_convoy_highways_4 = { research_cost = 1 }
 	mechanised_infantry_a = { research_cost = 1 }
-	r56_gw_railway_gun = { research_cost = 1 }
-	r56_railway_mortar_subtech = { research_cost = 1 }
+	# r56_gw_railway_gun = { research_cost = 1 }
+	# r56_railway_mortar_subtech = { research_cost = 1 }
 	r56_mid_wartime_train = { research_cost = 1 }
 	r56_postwar_train = { research_cost = 1 }
 	# r56_flexible_railnetwork = { research_cost = 1 }
 	# r56_military_railnetwork = { research_cost = 1 }
 	# r56_modern_military_railnetwork = { research_cost = 1 }
-	r56_modern_military_railnetwork_2 = { research_cost = 1 }
+	# r56_modern_military_railnetwork_2 = { research_cost = 1 }
 	tech_recon_focus_bonus = { research_cost = 1 }
   # special_forces_doctrine
 	special_forces_shocktroops = { research_cost = 1 }
@@ -263,7 +264,7 @@ technologies = {
 	shocktroop_level_3_a = { research_cost = 1 }
 	shocktroop_level_3_b = { research_cost = 1 }
   # support
-	flamethrower = { research_cost = 1 }
+	# flamethrower = { research_cost = 1 }
 	tech_engineers_a = { research_cost = 1 }
 	tech_engineers_b = { research_cost = 1 }
 	tech_engineers_c = { research_cost = 1 }

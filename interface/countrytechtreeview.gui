@@ -37,7 +37,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
 
-		containerWindowType = {
+		containerWindowType = {# VURC infantry_folder
 			name = "infantry_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -55,7 +55,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 1400 height = 1275
+					width = 1400 height = 3500 # VURC
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -82,7 +82,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 40 y = 1400 }
+					position = { x = 40 y = 2100 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -95,7 +95,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "infantry_subtitle_motorized"
-					position = { x = 40 y = 780 } # VURC
+					position = { x = 40 y = 1280 } # VURC
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
@@ -313,58 +313,72 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-			gridboxtype = {
+
+			gridboxtype = { # VURC
+				name = "winter_clothes_gw_tree"
+				position = { x = 140 y = 400 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = { # VURC
+				name = "jngdst_clothes_gw_tree"
+				position = { x = 140 y = 400 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = { # VURC
 				name = "tech_trucks_tree"
-				position = { x = 140 y = 850 }
+				position = { x = 140 y = 1450 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "marines_tree"
-				position = { x = 140 y = 1100 }
+				position = { x = 140 y = 1700 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 1200 }
+				position = { x = 140 y = 1800 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "paratroopers_tree"
-				position = { x = 140 y = 1300 }
+				position = { x = 140 y = 1900 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "rangers_tech_tree"
-				position = { x = 140 y = 1390 }
+				position = { x = 140 y = 2000 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "desertis_tree"
-				position = { x = 140 y = 1445 }
+				position = { x = 140 y = 2100 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "shocks_tree"
-				position = { x = 140 y = 1500 }
+				position = { x = 140 y = 2200 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 
-			gridboxtype = {
+			gridboxtype = { # VURC
 				name = "tech_special_forces_tree"
-				position = { x = 140 y = 1605 }
+				position = { x = 140 y = 2350 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

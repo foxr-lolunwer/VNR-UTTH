@@ -3350,6 +3350,13 @@ technologies = {
 			position = { x = 2 y = 10 }
 		}
 
+		on_research_complete = { # VURC
+			set_technology = {
+				excavation_a = 1
+				popup = no
+			}
+		}
+
 		ai_will_do = {
 			factor = 4
 
@@ -3418,6 +3425,13 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 12 }
+		}
+
+		on_research_complete = { # VURC
+			set_technology = {
+				excavation_b = 1
+				popup = no
+			}
 		}
 
 		ai_will_do = {
@@ -3490,6 +3504,13 @@ technologies = {
 			position = { x = 2 y = 14 }
 		}
 
+		on_research_complete = { # VURC
+			set_technology = {
+				excavation_c = 1
+				popup = no
+			}
+		}
+
 		ai_will_do = {
 			factor = 4
 
@@ -3559,6 +3580,13 @@ technologies = {
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 16 }
+		}
+
+		on_research_complete = { # VURC
+			set_technology = {
+				excavation_d = 1
+				popup = no
+			}
 		}
 
 		ai_will_do = {

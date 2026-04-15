@@ -1,6 +1,6 @@
 english:
-[h2]- RT56 Ver:[b]UTC+8 2026.2.8[/b][/h2]
-[h2]- VNR + UTTNH Compatch  Ver:[b]Neo 1.81(UTC+8 2026.2.19)[/b][/h2]
+[h2]- RT56 Ver:[b]UTC+8 2026.4.8[/b][/h2]
+[h2]- VNR + UTTNH Compatch  Ver:[b]Neo 1.8.2[/b][/h2]
 
 [h1]Please see the change notes for updates[/h1]
 [h1]Function[/h1]
@@ -28,8 +28,8 @@ By using this mod, VNR can be made compatible with UTTNH&RT56. At the same time,
 [/list]
 
 simp_chinese:
-[h2]- 56之路版本:[b]UTC+8 2026.2.8[/b][/h2]
-[h2]- 原版海军重置+UTTNH兼容包版本:[b]Neo 1.81 (UTC+8 2026.2.19)[/b][/h2]
+[h2]- 56之路版本:[b]UTC+8 2026.4.8[/b][/h2]
+[h2]- 原版海军重置+UTTNH兼容包版本:[b]Neo 1.8.2[/b][/h2]
 
 [h1]有关更新请查看改动说明[/h1]
 [h1]功能[/h1]
