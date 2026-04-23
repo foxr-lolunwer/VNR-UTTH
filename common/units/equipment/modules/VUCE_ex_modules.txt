@@ -828,7 +828,7 @@ equipment_modules = {
 			build_cost_ic = 500
 		}
 		multiply_stats = {
-			anti_air_attack = 0.15
+			anti_air_attack = 0.1
 			surface_detection = 0.05
 		}
 		dismantle_cost_ic = 400
@@ -845,9 +845,9 @@ equipment_modules = {
 			max_organisation = 0.1
 		}
 		multiply_stats = {
-			anti_air_attack = 0.15
+			anti_air_attack = 0.25
 			surface_detection = 0.08
-			reliability = -0.5
+			reliability = -0.3
 		}
 		dismantle_cost_ic = 800
 		manpower = 100
@@ -864,9 +864,9 @@ equipment_modules = {
 			max_organisation = 0.15
 		}
 		multiply_stats = {
-			anti_air_attack = 0.2
+			anti_air_attack = 0.3
 			surface_detection = 0.1
-			reliability = -0.3
+			reliability = -0.2
 		}
 		dismantle_cost_ic = 900
 		manpower = 100
@@ -882,7 +882,7 @@ equipment_modules = {
 			max_organisation = 0.3
 		}
 		multiply_stats = {
-			anti_air_attack = 0.3
+			anti_air_attack = 0.4
 			surface_detection = 0.15
 			reliability = -0.5
 		}

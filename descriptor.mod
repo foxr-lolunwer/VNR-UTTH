@@ -1,4 +1,4 @@
-version="Neo 1.8.2-hotupdate1"
+version="Neo 1.8.3"
 tags={
 	"Fixes"
 }
@@ -15,4 +15,4 @@ dependencies={
 	"Kaiserreich(CN.Ver)"
 }
 name="VUC MAIN"
-supported_version="1.17.*"
+supported_version="1.18.*"

@@ -107,14 +107,17 @@ if __name__ == "__main__":
     out_dir = r"interface\src"
     # 设定你的两个 Mod 或 文件夹 路径
     dir_utt = r"interface\src\dir_utt"
-    dir_b = r"interface\src\dir2"
     list_utt = get_gfx_file_list(dir_utt)
     # list_a = list_utt
     dir_r56 = r"interface\src\dir_r56"
     list_r56 = get_gfx_file_list(dir_r56)
     list_a = list_utt + list_r56
 
-    list_b = get_gfx_file_list(dir_b)
+    dir_vnr = r"interface\src\dir2"
+    dir_vuc = r"interface\src\dir_vucs"
+
+
+    list_b = get_gfx_file_list(dir_vnr) + get_gfx_file_list(dir_vuc)
 
 
     # 然后调用之前的合并函数

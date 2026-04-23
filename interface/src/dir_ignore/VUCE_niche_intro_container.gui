@@ -1,0 +1,21 @@
+guiTypes = {
+	containerWindowType = {
+		name = "VUCE_niche_intro_container"
+		position = { x=505 y=125 }
+		size = { width=21 height=21 }
+
+		buttonType = {
+			name = "show_tooltip"
+			position = { x=2 y=0 }
+			quadTextureSprite ="GFX_VUCE_button_tooltip"
+			pdx_tooltip = "VUCE_SHIP_ROLE_ICON_TEXT"
+			scale = 0.5
+		}
+
+		background = {
+			name = "Background"
+			spriteType ="GFX_equipment_role_selector_tiled_window"
+			position = { x=0 y=0 }
+		}
+	}
+}
