@@ -1,4 +1,4 @@
-version="1.0.0"
+version="1.0.1"
 tags={
 	"Fixes"
 }
@@ -12,5 +12,5 @@ dependencies={
 	"VNR + UTTNH Compatch | 原版海军重置+UTTNH兼容包"
 }
 name="VNR + UTTNH + RT56 Compatch"
-supported_version="1.17.*"
+supported_version="1.18.*"
 remote_file_id="3457591333"
