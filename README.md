@@ -5,7 +5,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ## 当前版本信息 / Version Info
-* **MOD Ver:** `Neo 1.8.2`
+* **MOD Ver:** `Neo 1.8.3
 * **VNR Ver:** `v2.9.5 - Iwo Jima` (2026.3.8)
 * **UTTNH Ver:** `Jan 11, 2026`
 
