@@ -34,7 +34,7 @@ def sync_vnr_files_in_subfolders():
             current_file_path = os.path.join(folder_path, file)
             
             # 过滤逻辑：只处理 .yml 且不以 FL_ 开头的文件
-            if file.startswith('VUC') not file.endswith('.yml'):
+            if file.startswith('VUC') and not file.endswith('.yml'):
                 print(f"[跳过] 非目标文件：{file}")
                 continue
 

@@ -384,3 +384,5 @@
  topgun_spirit_tt: "§H解锁一个特殊的海军军官团精神。§!"
  bb_conversion_carrier: "重型改装航空母舰"
  auxiliary_submarine_tech: "辅助潜艇"
+ modifier_repair_speed_coastal_bunker_factor: "§Y$coastal_bunker$§!维修速度"
+ cv_tech_10_tt: "\n\n\n\n\n£GFX_lhd_desc_icon\n\n\n\n\n\n"

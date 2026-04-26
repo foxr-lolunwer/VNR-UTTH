@@ -313,19 +313,63 @@ equipment_modules = {
 		dismantle_cost_ic = 92							# +6
 		critical_parts = { damaged_light_guns }
 	}
-	VUCE_coldwar_bb_battery_1 = {
+
+	VUCE_coldwar_bb_battery_1_double = {
 		category = VUCE_coldwar_bb_battery
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			lg_attack = 200
+			lg_attack = 60
 			lg_armor_piercing = 50
 			build_cost_ic = 2000
-			armor_value = 5
 		}
 		multiply_stats = {
 			naval_speed = -0.1
 		}
 		dismantle_cost_ic = 500
+		critical_parts = { damaged_heavy_guns }
+	}
+	VUCE_coldwar_bb_battery_1_triple = {
+		category = VUCE_coldwar_bb_battery_triple
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 80
+			lg_armor_piercing = 50
+			build_cost_ic = 2800
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		dismantle_cost_ic = 500
+		critical_parts = { damaged_heavy_guns }
+	}
+	VUCE_coldwar_bb_battery_1_quad = {
+		category = VUCE_coldwar_bb_battery_quad
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 100
+			lg_armor_piercing = 50
+			build_cost_ic = 3600
+		}
+		multiply_stats = {
+			naval_speed = -0.1
+		}
+		dismantle_cost_ic = 500
+		critical_parts = { damaged_heavy_guns }
+	}
+	VUCE_coldwar_bb_battery_2_double = {
+		category = VUCE_coldwar_bb_battery
+		parent = VUCE_coldwar_bb_battery_1
+		sfx = sfx_ui_sd_module_turret
+		add_stats = {
+			lg_attack = 300
+			lg_armor_piercing = 80
+			build_cost_ic = 2500
+			armor_value = 5
+		}
+		multiply_stats = {
+			naval_speed = -0.12
+		}
+		dismantle_cost_ic = 600
 		critical_parts = { damaged_heavy_guns }
 	}
 ######################
@@ -338,7 +382,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1200
 			naval_light_gun_hit_chance_factor = 0.125
-			naval_heavy_gun_hit_chance_factor = 0.125
+			naval_heavy_gun_hit_chance_factor = 0.3
 			naval_torpedo_hit_chance_factor = 0.05
 		}
 
@@ -384,16 +428,30 @@ equipment_modules = {
 ######################
 ###  COLDWAR ARMOR
 ######################
-	VUCE_bb_ex_armor = {
+	VUCE_bb_ex_armor_1 = {
 		category = VUCE_bb_ex_armor
 		add_stats = {
-			armor_value = 10
+			armor_value = 200
 			build_cost_ic = 3000
 		}
 		multiply_stats = {
 			reliability = 0.3
 			max_organisation = 0.2
-			build_cost_ic = 0.05
+			build_cost_ic = 0.2
+			naval_speed = -0.1
+		}
+		dismantle_cost_ic = 5000
+	}
+	VUCE_bb_ex_armor_2 = {
+		category = VUCE_bb_ex_armor
+		add_stats = {
+			armor_value = 300
+			build_cost_ic = 3000
+		}
+		multiply_stats = {
+			reliability = 0.3
+			max_organisation = 0.2
+			build_cost_ic = 0.3
 			naval_speed = -0.1
 		}
 		dismantle_cost_ic = 5000
@@ -401,7 +459,7 @@ equipment_modules = {
 	VUCE_cg_ex_armor = {
 		category = VUCE_cg_ex_armor
 		add_stats = {
-			armor_value = 10
+			armor_value = 30
 			build_cost_ic = 2000
 		}
 		multiply_stats = {
@@ -425,7 +483,8 @@ equipment_modules = {
 			max_strength = 100
 			anti_air_attack = 5
 			supply_consumption = 0.01
-			max_organisation = 15
+			max_organisation = 14
+			armor_value = 45
 		}
 		multiply_stats = {
 			build_cost_ic = 0.08
@@ -448,7 +507,8 @@ equipment_modules = {
 			max_strength = 120			# +20
 			anti_air_attack = 8			# +3
 			supply_consumption = 0.015	# +0.005
-			max_organisation = 20     	# +5
+			max_organisation = 16     	# +2
+			armor_value = 50			# +5
 		}
 		multiply_stats = {
 			build_cost_ic = 0.08
@@ -471,7 +531,8 @@ equipment_modules = {
 			max_strength = 140			# +20
 			anti_air_attack = 11		# +3
 			supply_consumption = 0.02	# +0.005
-			max_organisation = 25.0     # +5
+			max_organisation = 18.0     # +2
+			armor_value = 55			# +5
 		}
 		multiply_stats = {
 			build_cost_ic = 0.08
@@ -494,7 +555,8 @@ equipment_modules = {
 			max_strength = 160			# +20
 			anti_air_attack = 14		# +3
 			supply_consumption = 0.025	# +0.005
-			max_organisation = 30.0     # +5
+			max_organisation = 20.0     # +2
+			armor_value = 60			# +5
 		}
 		multiply_stats = {
 			build_cost_ic = 0.08
@@ -517,7 +579,8 @@ equipment_modules = {
 			reliability = -0.1
 			anti_air_attack = 1
 			supply_consumption = 0.05
-			max_organisation = 25.0
+			max_organisation = 20.0
+			armor_value = 52
 		}
 		manpower = 500
 		multiply_stats = {
@@ -545,7 +608,8 @@ equipment_modules = {
 			reliability = -0.1			# ~
 			anti_air_attack = 1.5		# +0.5
 			supply_consumption = 0.06	# +0.01
-			max_organisation = 30.0     # +5
+			max_organisation = 23.0     # +3
+			armor_value = 60			# +8
 		}
 		manpower = 550					# +50
 		multiply_stats = {
@@ -573,7 +637,8 @@ equipment_modules = {
 			reliability = -0.1			# ~
 			anti_air_attack = 2.0		# +0.5
 			supply_consumption = 0.07	# +0.01
-			max_organisation = 35.0     # +5
+			max_organisation = 26.0     # +3
+			armor_value = 68			# +8
 		}
 		manpower = 600					# +50
 		multiply_stats = {
@@ -601,7 +666,8 @@ equipment_modules = {
 			reliability = -0.1			# ~
 			anti_air_attack = 2.5		# +0.5
 			supply_consumption = 0.08	# +0.01
-			max_organisation = 40.0    # +5
+			max_organisation = 29.0     # +3
+			armor_value = 76			# +8
 		}
 		manpower = 650					# +50
 		multiply_stats = {

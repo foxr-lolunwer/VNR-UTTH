@@ -1,6 +1,6 @@
 equipments = {
 	VUCE_ship_hull_lha = {
-		year = 1970
+		year = 1975
 		can_be_produced = {
 			NOT = { has_country_flag = cannot_produce_ships }
 		}
@@ -78,7 +78,7 @@ equipments = {
 		naval_dominance_factor = 200
 	}
 	VUCE_ship_hull_lha_1 = {
-		year = 1970
+		year = 1975
 		priority = 1500
 		archetype = VUCE_ship_hull_lha
 		naval_dominance_factor = 200

@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
 #### UI
   VUCE_navy_rework_welcome_splash_tab_5: "UTTNH兼容包"
-  VUCE_MOD_VER_CONTENT: "UTTNH+VNR 兼容包版本：Neo 1.82\n"
-  VUCE_XNR_VER_CONTENT: "原版海军重置版本: v2.9.5 “硫磺岛日暮”(UTC+8 2026.3.8)\n"
+  VUCE_MOD_VER_CONTENT: "UTTNH+VNR 兼容包版本：Neo 1.8.3\n"
+  VUCE_XNR_VER_CONTENT: "原版海军重置版本: v2.10 “血染冲绳”(UTC+8 2026.4.25)\n"
   VUCE_TECHMOD_VER_CONTENT: "UTTNH版本: UTC+8 2026.1.11\n"
   VUCE_SUPPORT_TEXT_CONTENT: "支持：\n"
   VUCE_LINE_TEXT_CONTENT: "§Y------§!\n"
@@ -305,6 +305,11 @@
   VUCE_lha_ship_engine_1_desc: "两栖登陆舰引擎 I"
   VUCE_lha_ship_engine_2: "两栖登陆舰引擎 II"
   VUCE_lha_ship_engine_2_desc: "两栖登陆舰引擎 II"
+ # 鱼雷
+  ship_torpedo_6: "1960 舰载鱼雷发射器"
+  ship_torpedo_7: "1980 舰载鱼雷发射器"
+  ship_torpedo_6_desc: "1960 舰载鱼雷发射器"
+  ship_torpedo_7_desc: "1980 舰载鱼雷发射器"
 #### EX TECH
   VUCE_coldwar_damage_control_1: "冷战早期损害管制"
   VUCE_coldwar_damage_control_1_desc: "汲取了二战大规模海战的惨痛教训，我们开始规范化损害管制流程，并为船员配备更高效的便携式灭火器材和呼吸装置。"
@@ -343,6 +348,17 @@
   VUCE_ship_helipad_1980_desc: "大型反潜直升机装备在巡洋舰、驱逐舰和轻型航母上，配备更先进的雷达、声纳浮标与武器系统，能够在远离母港的海域执行持续作战任务。"
   VUCE_ship_helipad_1990: "1990 舰载直升机"
   VUCE_ship_helipad_1990_desc: "冷战后期的舰载直升机已经高度专业化，具备全天候反潜能力、多任务协同作战能力，以及与航母、护航舰和舰载预警机的数据链整合，使舰队在复杂作战环境中保持高效行动。"
+
+  VUCE_continue_battleship_design: "继续战列舰设计"
+  VUCE_continue_battleship_design_desc: "尽管航空兵力与导弹技术的发展已经动摇了战列舰的海上霸权，其厚重装甲与大口径火炮依旧具备无可替代的心理威慑与火力投送能力。出于一系列考量，海军仍决定继续推进战列舰设计，在新时代中为这一古老舰种寻找新的定位。"
+  VUCE_new_main_battery_design: "新式主炮设计"
+  VUCE_new_main_battery_design_desc: "通过改进炮管材料、装药结构与火控系统，新一代主炮在射程、精度与射速上均获得提升。尽管导弹逐渐成为主流远程打击手段，现代化舰炮在对岸轰击与持续火力支援中仍具备不可替代的价值。"
+  VUCE_new_armor_design: "新式装甲设计"
+  VUCE_new_armor_design_desc: "面对破甲弹与导弹战斗部的威胁，传统均质装甲已难以提供充分防护。复合装甲与分层结构的引入显著提升了抗打击能力，使大型舰体在高强度战场环境中具备一定的生存能力。"
+  VUCE_ship_hull_heavy_5: "导弹战列舰船体"
+  VUCE_ship_hull_heavy_5_desc: "这一设计尝试将制导武器引入传统战列舰平台。通过在厚重装甲与大排水量基础上整合早期导弹系统，舰艇获得了超越视距的打击能力。"
+  VUCE_ship_hull_heavy_6: "武库舰船体"
+  VUCE_ship_hull_heavy_6_desc: "武库舰理念彻底抛弃了传统战列舰的火炮中心设计，转而以大规模垂直发射系统为核心。该类舰艇可携带大量巡航导弹，对陆地与海上目标实施远程精确打击。"
 #### MODIFIER
   modifier_experience_gain_VUCE_lha_training_factor: "两栖登陆舰训练经验增长"
   modifier_experience_gain_VUCE_lha_mission_factor: "两栖登陆舰任务经验增长"
@@ -371,7 +387,6 @@
   modifier_experience_gain_VUCE_missile_submarine_training_factor: "导弹潜艇训练经验增长"
   modifier_experience_gain_VUCE_missile_submarine_mission_factor: "导弹潜艇任务经验增长"
   modifier_experience_gain_VUCE_missile_submarine_combat_factor: "导弹潜艇战斗经验增长"
-
 #### VNR FIX
   modifier_experience_gain_auxiliary_ship_training_factor: "辅助船训练经验增长"  # ADD
   modifier_experience_gain_auxiliary_ship_mission_factor: "辅助船任务经验增长"  # ADD
