@@ -6,7 +6,7 @@
 
 ## 当前版本信息 / Version Info
 * **MOD Ver:** `Neo 1.8.3
-* **VNR Ver:** `v2.9.5 - Iwo Jima` (2026.3.8)
+* **VNR Ver:** `v2.10 - "Blood On Okinawa Beach"` (2026.4.25)
 * **UTTNH Ver:** `Jan 11, 2026`
 
 ## 🔗 快速链接 / Quick Links
@@ -43,9 +43,6 @@ It bridges the gap between UTTNH's vanilla-style designer and VNR's advanced sys
     * [VNR + ETT 1960 Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3167054950)
     * [VNR + UTTNH + RT56 Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3457591333)
     * [KNR + UTTNH Compatch](https://steamcommunity.com/sharedfiles/filedetails/?id=3663581410)
-* **Localization / 汉化**:
-    * Chinese-English translation text proofreading address: [Click here](https://paratranz.cn/projects/16522)
-    * 作者参与的 UTTNH 汉化: [Click here](https://steamcommunity.com/sharedfiles/filedetails/?id=3376363586)
 
 ---
 
