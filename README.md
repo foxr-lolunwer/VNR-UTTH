@@ -5,8 +5,8 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
 ## 当前版本信息 / Version Info
-* **MOD Ver:** `Neo 1.8.3
-* **VNR Ver:** `v2.10 - "Blood On Okinawa Beach"` (2026.4.25)
+* **MOD Ver:** `Neo 1.8.4
+* **VNR Ver:** `v2.11 - "Tokyo Bay Finale"` (2026.6.22)
 * **UTTNH Ver:** `Jan 11, 2026`
 
 ## 🔗 快速链接 / Quick Links
