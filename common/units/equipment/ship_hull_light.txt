@@ -40,7 +40,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = no
-				allowed_module_categories = { ship_fire_control_system ship_sonar }
+				allowed_module_categories = { ship_fire_control_system }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -48,7 +48,7 @@ equipments = {
 			}
 			fixed_ship_extra_electronics_slot = {
 				required = no
-				allowed_module_categories = { ship_radar ship_sonar ship_fire_control_system }
+				allowed_module_categories = { ship_radar ship_sonar }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
@@ -129,10 +129,6 @@ equipments = {
 
 		module_count_limit = {
 			category = ship_radar
-			count < 2
-		}
-		module_count_limit = {
-			category = ship_fire_control_system
 			count < 2
 		}
 		module_count_limit = {
@@ -451,7 +447,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws }
+				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws } # VUC
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
@@ -477,6 +473,7 @@ equipments = {
 					ship_light_medium_battery_double
 					ship_light_medium_battery_single
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -491,6 +488,7 @@ equipments = {
 					dp_light_battery
 					dp_light_battery_single
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -509,6 +507,7 @@ equipments = {
 					dp_light_battery_single
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -531,6 +530,7 @@ equipments = {
 					ship_light_medium_battery_single
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -550,6 +550,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}

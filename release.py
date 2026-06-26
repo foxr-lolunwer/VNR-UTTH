@@ -4,7 +4,7 @@ from pathlib import Path
 import pathspec
 
 MOD_TEXT = '''\
-version="Neo 1.8.3"
+version="Neo 1.8.4"
 tags={
 	"Fixes"
 }
@@ -21,7 +21,7 @@ dependencies={
 	"Kaiserreich(CN.Ver)"
 }
 name="VNR + UTTNH Compatch | 原版海军重置+UTTNH兼容包"
-supported_version="1.18.*"
+supported_version="1.19.*"
 remote_file_id="3164741523"
 '''
 

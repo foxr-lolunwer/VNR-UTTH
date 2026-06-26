@@ -570,7 +570,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws }
+				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws } # VUC
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
@@ -602,6 +602,7 @@ equipments = {
 					ship_heavy_battery_quad
 					ship_missile
 					ship_missile_aa
+					 # VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -622,6 +623,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_missile
 					ship_missile_aa
+					 # VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -643,9 +645,10 @@ equipments = {
 					ship_airplane_launcher
 					ship_missile
 					ship_missile_aa
+					ship_deck_space_bb
+					 # VUC
 					ship_sam_missile_battery
 					ship_ciws
-					ship_deck_space_bb
 				}
 			}
 			rear_2_custom_slot = rear_1_custom_slot
@@ -690,7 +693,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws }
+				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws } # VUC
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = yes
@@ -740,6 +743,7 @@ equipments = {
 					ship_super_heavy_battery_quad
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -759,6 +763,7 @@ equipments = {
 					ship_super_heavy_battery_quad
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -781,6 +786,7 @@ equipments = {
 					ship_deck_space_bb
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -825,7 +831,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws }
+				allowed_module_categories = { ship_anti_air ship_missile_aa ship_sam_missile_battery ship_ciws } # VUC
 			}
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit
@@ -857,6 +863,7 @@ equipments = {
 					ship_missile
 					ship_missile_aa
 					ship_rocket
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -874,6 +881,7 @@ equipments = {
 					ship_airplane_launcher
 					ship_missile
 					ship_missile_aa
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
@@ -893,6 +901,7 @@ equipments = {
 					ship_missile
 					ship_missile_aa
 					ship_rocket
+					# VUC
 					ship_sam_missile_battery
 					ship_ciws
 				}
