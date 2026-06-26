@@ -4,7 +4,7 @@
 [![GitHub Releases](https://img.shields.io/badge/GitHub-Releases-orange?logo=github)](https://github.com/foxr-lolunwer/VNR-UTTH/releases)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
 
-🌐 [English Version / 英文版](README_en.md)
+🌐 [English Version / 英文版](README.md)
 
 ## 当前版本信息
 * **MOD 版本:** `Neo 1.8.4`
